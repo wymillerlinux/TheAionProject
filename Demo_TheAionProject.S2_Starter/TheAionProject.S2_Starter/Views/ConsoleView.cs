@@ -17,6 +17,7 @@ namespace TheAionProject
         // declare game objects for the ConsoleView object to use
         //
         Traveler _gameTraveler;
+        Universe _gameUniverse;
         #endregion
 
         #region PROPERTIES
@@ -28,9 +29,10 @@ namespace TheAionProject
         /// <summary>
         /// default constructor to create the console view objects
         /// </summary>
-        public ConsoleView(Traveler gameTraveler)
+        public ConsoleView(Traveler gameTraveler, Universe gameUniverse)
         {
             _gameTraveler = gameTraveler;
+            _gameUniverse = gameUniverse;
 
             InitializeDisplay();
         }
@@ -299,6 +301,19 @@ namespace TheAionProject
                 row++;
             }
 
+        }
+        /// <summary>
+        /// display a list of all the space time locations
+        /// </summary>
+        public void DisplayListOfSpaceTimeLocations()
+        {
+            DisplayGamePlayScreen("List: Space-Time Locations", Text.ListSpaceLocations(_gameUniverse.SpaceTimeLocations), ActionMenu.MainMenu, "");
+        }
+
+        public void DisplayLookAround()
+        {
+            SpaceTimeLocation currentSpaceTimeLocation = _gameUniverse.GetSpaceTimeLocationByID(_gameTraveler.SpaceTimeLocationID);
+            DisplayGamePlayScreen("Currnet Location", Text.LookAround(currentSpaceTimeLocation), ActionMenu.MainMenu, "");
         }
 
         /// <summary>

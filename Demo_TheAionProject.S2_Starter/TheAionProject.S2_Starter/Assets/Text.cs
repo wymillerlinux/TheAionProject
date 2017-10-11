@@ -143,6 +143,11 @@ namespace TheAionProject
             return messageBoxText;
         }
 
+
+
+
+
+
         //public static string Travel(int currentSpaceTimeLocationId, List<SpaceTimeLocation> spaceTimeLocations)
         //{
         //    string messageBoxText =
@@ -168,5 +173,44 @@ namespace TheAionProject
         //}
 
         #endregion
+
+        #region ACTIONS SPRINT TWO
+
+        public static string ListSpaceLocations(IEnumerable<SpaceTimeLocation> spaceTimeLocations)
+        {
+            string messageBoxText =
+                "Space-Time Locations \n" +
+                "\n" +
+
+                // display table header
+                "ID".PadRight(10) + "Name".PadRight(30) + "\n" +
+                "---".PadRight(10) + "-----------------".PadRight(30) + "\n";
+
+            // display all space time locations
+            string spaceTimeLocationsList = null;
+            foreach (SpaceTimeLocation spaceTimeLocation in spaceTimeLocations)
+            {
+                spaceTimeLocationsList +=
+                    $"{spaceTimeLocation.SpaceTimeLocationID}".PadRight(10) +
+                    $"{spaceTimeLocation.CommonName}".PadRight(30) +
+                    Environment.NewLine;
+            }
+
+            messageBoxText += spaceTimeLocationsList;
+
+            return messageBoxText;
+        }
+
+        public static string LookAround(SpaceTimeLocation spaceTimeLocations)
+        {
+            string messageBoxText =
+                $"Current Location: {spaceTimeLocations.CommonName}" +
+                "\n" +
+                spaceTimeLocations.GeneralContents;
+
+            return messageBoxText;
+        }
+
+        #endregion 
     }
 }

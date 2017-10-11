@@ -15,7 +15,7 @@ namespace TheAionProject
 
         private ConsoleView _gameConsoleView;
         private Traveler _gameTraveler;
-        //private Universe _gameUniverse;
+        private Universe _gameUniverse;
         private bool _playingGame;
 
         #endregion
@@ -50,8 +50,8 @@ namespace TheAionProject
         private void InitializeGame()
         {
             _gameTraveler = new Traveler();
-            //_gameUniverse = new Universe();
-            _gameConsoleView = new ConsoleView(_gameTraveler);
+            _gameUniverse = new Universe();
+            _gameConsoleView = new ConsoleView(_gameTraveler, _gameUniverse);
             _playingGame = true;
 
             Console.CursorVisible = false;
@@ -113,6 +113,14 @@ namespace TheAionProject
 
                     case TravelerAction.TravelerInfo:
                         _gameConsoleView.DisplayTravelerInfo();
+                        break;
+
+                    case TravelerAction.ListSpaceTimeLocations:
+                        _gameConsoleView.DisplayListOfSpaceTimeLocations();
+                        break;
+
+                    case TravelerAction.LookAround:
+                        _gameConsoleView.DisplayLookAround();
                         break;
 
                     case TravelerAction.Exit:
