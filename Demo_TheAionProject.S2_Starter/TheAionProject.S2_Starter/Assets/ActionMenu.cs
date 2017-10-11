@@ -38,7 +38,11 @@ namespace TheAionProject
             MenuChoices = new Dictionary<char, TravelerAction>()
                 {
                     { '1', TravelerAction.TravelerInfo },
-                    { '2', TravelerAction.Exit }
+                    { '2', TravelerAction.LookAround },
+                    { '3', TravelerAction.Travel },
+                    { '4', TravelerAction.TravelerLocationsVisited },
+                    { '5', TravelerAction.ListSpaceTimeLocations },
+                    { '0', TravelerAction.Exit }
                 }
         };
 

@@ -15,6 +15,7 @@ namespace TheAionProject
 
         private ConsoleView _gameConsoleView;
         private Traveler _gameTraveler;
+        //private Universe _gameUniverse;
         private bool _playingGame;
 
         #endregion
@@ -49,6 +50,7 @@ namespace TheAionProject
         private void InitializeGame()
         {
             _gameTraveler = new Traveler();
+            //_gameUniverse = new Universe();
             _gameConsoleView = new ConsoleView(_gameTraveler);
             _playingGame = true;
 
@@ -78,7 +80,7 @@ namespace TheAionProject
             //
             // display introductory message
             //
-            _gameConsoleView.DisplayGamePlayScreen("Mission Intro", Text.MissionIntro(), ActionMenu.MissionIntro, "");
+            _gameConsoleView.DisplayGamePlayScreen("Mission Intro", Text.MissionIntro(), ActionMenu.MissionIntro, " ");
             _gameConsoleView.GetContinueKey();
 
             //

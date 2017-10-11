@@ -1,0 +1,7 @@
+C:\Users\Wyatt\Desktop\Source\TheAionProject\Demo_TheAionProject.S2_Starter\TheAionProject.S2_Starter\bin\Debug\TheAionProject.exe.config
+C:\Users\Wyatt\Desktop\Source\TheAionProject\Demo_TheAionProject.S2_Starter\TheAionProject.S2_Starter\bin\Debug\TheAionProject.exe
+C:\Users\Wyatt\Desktop\Source\TheAionProject\Demo_TheAionProject.S2_Starter\TheAionProject.S2_Starter\bin\Debug\TheAionProject.pdb
+C:\Users\Wyatt\Desktop\Source\TheAionProject\Demo_TheAionProject.S2_Starter\TheAionProject.S2_Starter\obj\Debug\TheAionProject.S2_Starter.csprojResolveAssemblyReference.cache
+C:\Users\Wyatt\Desktop\Source\TheAionProject\Demo_TheAionProject.S2_Starter\TheAionProject.S2_Starter\obj\Debug\TheAionProject.S2_Starter.csproj.CoreCompileInputs.cache
+C:\Users\Wyatt\Desktop\Source\TheAionProject\Demo_TheAionProject.S2_Starter\TheAionProject.S2_Starter\obj\Debug\TheAionProject.exe
+C:\Users\Wyatt\Desktop\Source\TheAionProject\Demo_TheAionProject.S2_Starter\TheAionProject.S2_Starter\obj\Debug\TheAionProject.pdb

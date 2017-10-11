@@ -17,7 +17,6 @@ namespace TheAionProject
         // declare game objects for the ConsoleView object to use
         //
         Traveler _gameTraveler;
-
         #endregion
 
         #region PROPERTIES
@@ -78,13 +77,21 @@ namespace TheAionProject
         public TravelerAction GetActionMenuChoice(Menu menu)
         {
             TravelerAction choosenAction = TravelerAction.None;
+            Console.CursorVisible = false;
 
-            //
-            // TODO validate menu choices
-            //
-            ConsoleKeyInfo keyPressedInfo = Console.ReadKey();
-            char keyPressed = keyPressedInfo.KeyChar;
+            //create array of vaild keys
+            char[] validKeys = menu.MenuChoices.Keys.ToArray();
+
+            // validate key pressed from MenuChoices
+            char keyPressed;
+            do
+            {
+                ConsoleKeyInfo keyPressedInfo = Console.ReadKey(true);
+                keyPressed = keyPressedInfo.KeyChar;
+            } while (!validKeys.Contains(keyPressed));
+
             choosenAction = menu.MenuChoices[keyPressed];
+            Console.CursorVisible = true;
 
             return choosenAction;
         }
