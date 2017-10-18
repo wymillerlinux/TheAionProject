@@ -198,6 +198,33 @@ namespace TheAionProject
                 //
                 _gameTraveler.ExperiencePoints += _currentLocation.ExperiencePoints;
             }
+
+            if (_gameTraveler.SpaceTimeLocationID == 1)
+            {
+                _gameTraveler.Health -= 50;
+            }
+
+            if (_gameTraveler.Health <= 0)
+            {
+                _gameTraveler.Lives -= 1;
+                _gameTraveler.Health = 100;
+            }
+
+            if (_gameTraveler.Lives == 0)
+            {
+                Console.Clear();
+                _playingGame = false;
+                Console.WriteLine("Sorry, you have failed the mission!");
+                Console.WriteLine("Press any key to continue!");
+                Console.ReadKey();
+                Environment.Exit(0);
+            }
+
+            if (_gameTraveler.SpaceTimeLocationID == 2)
+            {
+                SpaceTimeLocation 
+
+            }
         }
 
         #endregion

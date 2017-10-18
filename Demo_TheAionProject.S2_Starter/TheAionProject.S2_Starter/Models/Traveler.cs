@@ -18,12 +18,18 @@ namespace TheAionProject
 
         #region FIELDS
 
+        private List<int> _spaceTimeLocationsVisited;
 
         #endregion
 
 
         #region PROPERTIES
-        
+
+        public List<int> SpaceTimeLocationsVisited
+        {
+            get { return _spaceTimeLocationsVisited; }
+            set { _spaceTimeLocationsVisited = value; }
+        }
 
         #endregion
 
@@ -32,19 +38,30 @@ namespace TheAionProject
 
         public Traveler()
         {
-
+            _spaceTimeLocationsVisited = new List<int>();
         }
 
         public Traveler(string name, RaceType race, int spaceTimeLocationID) : base(name, race, spaceTimeLocationID)
         {
-
+            _spaceTimeLocationsVisited = new List<int>();
         }
 
         #endregion
 
 
         #region METHODS
-        
+
+        public bool HasVisited(int _spaceTimeLocationID)
+        {
+            if (SpaceTimeLocationsVisited.Contains(_spaceTimeLocationID))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
 
         #endregion
     }

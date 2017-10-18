@@ -211,6 +211,73 @@ namespace TheAionProject
             return messageBoxText;
         }
 
+        public static string Travel(Traveler gametraveler, List<SpaceTimeLocation> spaceTimeLocations)
+        {
+            string messageBoxText =
+                $"{gametraveler.Name}, Aion Base will need to know the name of the new location.\n" +
+                "\n"+
+                "Enter the ID number of your desired location from the table below." +
+                "\n" +
+
+            // display table header
+            "ID".PadRight(10) + "Name".PadRight(30) + "Accessable".PadRight(10) + "\n" +
+            "---".PadRight(10) + "-----------------".PadRight(30) + "--------".PadRight(10) + "\n";
+
+            // display all space time locations
+            string spaceTimeLocationsList = null;
+            foreach (SpaceTimeLocation spaceTimeLocation in spaceTimeLocations)
+            {
+                if (spaceTimeLocation.SpaceTimeLocationID != gametraveler.SpaceTimeLocationID)
+                {
+                    spaceTimeLocationsList +=
+                    $"{spaceTimeLocation.SpaceTimeLocationID}".PadRight(10) +
+                    $"{spaceTimeLocation.CommonName}".PadRight(30) +
+                    $"{spaceTimeLocation.Accessable}".PadRight(10) +
+                    Environment.NewLine;
+                }
+                
+            }
+
+            messageBoxText += spaceTimeLocationsList;
+
+            return messageBoxText;
+        }
+
+        public static string CurrentLocationInfo(SpaceTimeLocation spaceTimeLocation)
+        {
+            string messageBoxText =
+                $"Current Location: {spaceTimeLocation.CommonName}" +
+                "\n" +
+                spaceTimeLocation.Description;
+
+            return messageBoxText;
+        }
+
+        public static string VisitedLocations(IEnumerable<SpaceTimeLocation> spaceTimeLocations)
+        {
+            string messageBoxText =
+                "Space-Time Locations \n" +
+                "\n" +
+
+                // display table header
+                "ID".PadRight(10) + "Name".PadRight(30) + "\n" +
+                "---".PadRight(10) + "-----------------".PadRight(30) + "\n";
+
+            // display all space time locations
+            string spaceTimeLocationsList = null;
+            foreach (SpaceTimeLocation spaceTimeLocation in spaceTimeLocations)
+            {
+                spaceTimeLocationsList +=
+                    $"{spaceTimeLocation.SpaceTimeLocationID}".PadRight(10) +
+                    $"{spaceTimeLocation.CommonName}".PadRight(30) +
+                    Environment.NewLine;
+            }
+
+            messageBoxText += spaceTimeLocationsList;
+
+            return messageBoxText;
+        }
+
         #endregion 
     }
 }

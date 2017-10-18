@@ -418,6 +418,52 @@ namespace TheAionProject
             return traveler;
         }
 
+        public int DisplayGetNextSpaceTimeLocation()
+        {
+            int spaceTimeLocationId = 0;
+            bool validSpaceTimeLocationId = false;
+
+            DisplayGamePlayScreen("", Text.Travel(_gameTraveler, _gameUniverse.SpaceTimeLocations), ActionMenu.MainMenu, "");
+
+            while (!validSpaceTimeLocationId)
+            {
+                // get an integer from user
+                GetInteger($"Enter you new location, {_gameTraveler.Name}", 1, _gameUniverse.GetMaxSpaceTimeLocationId(), out spaceTimeLocationId);
+
+                // validate integer as a valid spacetime location id
+                if (_gameUniverse.IsValidSpaceTimeLocationId(spaceTimeLocationId))
+                {
+                    // is spacetime location accessable?
+                    if (_gameUniverse.IsAccessibleLocation(spaceTimeLocationId))
+                    {
+                        validSpaceTimeLocationId = true;
+                    }
+                    else
+                    {
+                        ClearInputBox();
+                        DisplayInputErrorMessage("It appears that you are trying to travel to an inaccessable location. Please try again");
+                    }
+                }
+                else
+                {
+                    DisplayInputErrorMessage("It appears that you have entered an invalid Space Time Location ID. Please try again.");
+                }
+            }
+
+            return spaceTimeLocationId;
+        }
+
+        public void DisplayLocationsVisited()
+        {
+            List<SpaceTimeLocation> visitedSpaceTimeLocations = new List<SpaceTimeLocation>();
+            foreach (int spaceTimeLocationId in _gameTraveler.SpaceTimeLocationsVisited)
+            {
+                visitedSpaceTimeLocations.Add(_gameUniverse.GetSpaceTimeLocationByID(spaceTimeLocationId));
+            }
+
+            DisplayGamePlayScreen("Space Time Locations Visited", Text.VisitedLocations(visitedSpaceTimeLocations), ActionMenu.MainMenu, "");
+        }
+
         #region ----- display responses to menu action choices -----
 
         public void DisplayTravelerInfo()

@@ -68,7 +68,7 @@ namespace TheAionProject.Assets
                               "Norlon, founded in 1985 as a bio-tech company, is now a 36 billion dollar company " +
                               "with huge holdings in defense and space research and development.",
                 GeneralContents = "- stuff in the room -",
-                Accessable = true,
+                Accessable = false,
                 ExperiencePoints = 10
             }
         };
