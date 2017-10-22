@@ -222,7 +222,7 @@ namespace TheAionProject
 
             if (_gameTraveler.SpaceTimeLocationID == 2)
             {
-                SpaceTimeLocation 
+                // i don't know what goes here...placeholders i suppose SpaceTimeLocation 
 
             }
         }

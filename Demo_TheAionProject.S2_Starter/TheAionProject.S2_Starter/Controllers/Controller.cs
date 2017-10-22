@@ -167,6 +167,10 @@ namespace TheAionProject
             _gameTraveler.Age = traveler.Age;
             _gameTraveler.Race = traveler.Race;
             _gameTraveler.SpaceTimeLocationID = 1;
+
+            _gameTraveler.Health = 100;
+            _gameTraveler.ExpPoints = 0;
+            _gameTraveler.Lives = 3;
         }
 
         private void UpdateGameStatus()
@@ -175,6 +179,27 @@ namespace TheAionProject
             {
                 // add new location if first visit
                 _gameTraveler.SpaceTimeLocationsVisited.Add(_currentLocation.SpaceTimeLocationID);
+            }
+
+            if (_gameTraveler.Health == 0)
+            {
+                Console.Clear();
+                Console.WriteLine("GAME OVER");
+                Console.WriteLine("Press any key to exit the game...");
+                Console.ReadKey();
+                _playingGame = false;
+            }
+            
+            // challenge: subtract exp. points from player
+            if (_currentLocation.SpaceTimeLocationID == 2)
+            {
+                _gameTraveler.ExpPoints -= 25;
+            }
+            
+            // exp. points can't go lower than zero
+            if (_gameTraveler.ExpPoints < 0)
+            {
+                _gameTraveler.ExpPoints = 0;
             }
         }
 

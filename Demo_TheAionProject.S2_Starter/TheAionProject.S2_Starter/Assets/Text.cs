@@ -277,6 +277,19 @@ namespace TheAionProject
 
             return messageBoxText;
         }
+        
+        // method to display game stats
+        public static List<string> StatusBox(Traveler traveler, Universe universe)
+        {
+            List<string> statusBoxText = new List<string>();
+            
+            statusBoxText.Add($"Exp. Points: {traveler.ExpPoints}\n");
+            statusBoxText.Add($"Health: {traveler.Health}\n");
+            statusBoxText.Add($"Lives: {traveler.Lives}\n");
+
+            return statusBoxText;
+        }
+
 
         #endregion 
     }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,6 +20,9 @@ namespace TheAionProject
         #region FIELDS
 
         private List<int> _spaceTimeLocationsVisited;
+        private int _health;
+        private int _expPoints;
+        private int _lives;
 
         #endregion
 
@@ -31,6 +35,24 @@ namespace TheAionProject
             set { _spaceTimeLocationsVisited = value; }
         }
 
+        public int Health 
+        {
+            get { return _health; }
+            set { _health = value; }
+        }
+        
+        public int ExpPoints 
+        {
+            get { return _expPoints; }
+            set { _expPoints = value; }
+        }
+        
+        public int Lives 
+        {
+            get { return _lives; }
+            set { _lives = value; }
+        }
+        
         #endregion
 
 

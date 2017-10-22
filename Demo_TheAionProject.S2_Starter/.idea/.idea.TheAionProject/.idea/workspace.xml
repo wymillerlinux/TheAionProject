@@ -1,0 +1,1277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f42079ff-c648-4f80-a80f-cf355f4486f9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAionProject.S2_Starter/bin/Debug/TheAionProject.exe" afterPath="$PROJECT_DIR$/TheAionProject.S2_Starter/bin/Debug/TheAionProject.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAionProject.S2_Starter/bin/Debug/TheAionProject.pdb" afterPath="$PROJECT_DIR$/TheAionProject.S2_Starter/bin/Debug/TheAionProject.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAionProject.S2_Starter/obj/Debug/TheAionProject.S2_Starter.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/TheAionProject.S2_Starter/obj/Debug/TheAionProject.S2_Starter.csproj.CoreCompileInputs.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAionProject.S2_Starter/obj/Debug/TheAionProject.S2_Starter.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/TheAionProject.S2_Starter/obj/Debug/TheAionProject.S2_Starter.csprojResolveAssemblyReference.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAionProject.S2_Starter/obj/Debug/TheAionProject.exe" afterPath="$PROJECT_DIR$/TheAionProject.S2_Starter/obj/Debug/TheAionProject.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAionProject.S2_Starter/obj/Debug/TheAionProject.pdb" afterPath="$PROJECT_DIR$/TheAionProject.S2_Starter/obj/Debug/TheAionProject.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAionProject.S2_Solution/Controllers/Controller.cs" afterPath="$PROJECT_DIR$/TheAionProject.S2_Solution/Controllers/Controller.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAionProject.S2_Starter/Assets/Text.cs" afterPath="$PROJECT_DIR$/TheAionProject.S2_Starter/Assets/Text.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAionProject.S2_Starter/Controllers/Controller.cs" afterPath="$PROJECT_DIR$/TheAionProject.S2_Starter/Controllers/Controller.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAionProject.S2_Starter/Models/Traveler.cs" afterPath="$PROJECT_DIR$/TheAionProject.S2_Starter/Models/Traveler.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheAionProject.S2_Starter/obj/Debug/TheAionProject.S2_Starter.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/TheAionProject.S2_Starter/obj/Debug/TheAionProject.S2_Starter.csproj.FileListAbsolute.txt" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Controller.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Controllers/Controller.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+              <folding>
+                <marker date="1508601665605" expanded="false" signature="6:115" ph="..." />
+                <marker date="1508601665605" expanded="true" signature="141:6292" ph="{...}" />
+                <marker date="1508601665605" expanded="true" signature="148:238" ph="/// controller for the MVC pattern in the application ... " />
+                <marker date="1508601665605" expanded="true" signature="266:6290" ph="{...}" />
+                <marker date="1508601665605" expanded="true" signature="281:529" ph="FIELDS" />
+                <marker date="1508601665605" expanded="true" signature="539:578" ph="PROPERTIES" />
+                <marker date="1508601665605" expanded="true" signature="588:899" ph="CONSTRUCTORS" />
+                <marker date="1508601665605" expanded="true" signature="637:879" ph="{...}" />
+                <marker date="1508601665605" expanded="true" signature="660:729" ph="/* setup all of the objects in the game ... */" />
+                <marker date="1508601665605" expanded="true" signature="773:839" ph="/* begins running the application UI ... */" />
+                <marker date="1508601665605" expanded="true" signature="909:6284" ph="METHODS" />
+                <marker date="1508601665605" expanded="true" signature="934:1016" ph="/// initialize the major game objects ... " />
+                <marker date="1508601665605" expanded="true" signature="1054:1317" ph="{...}" />
+                <marker date="1508601665605" expanded="true" signature="1327:1428" ph="/// method to manage the application setup and game loop ... " />
+                <marker date="1508601665605" expanded="true" signature="1466:4723" ph="{...}" />
+                <marker date="1508601665605" expanded="true" signature="1561:1615" ph="/* display splash screen ... */" />
+                <marker date="1508601665605" expanded="true" signature="1695:1750" ph="/* player chooses to quit ... */" />
+                <marker date="1508601665605" expanded="true" signature="1781:1846" ph="{...}" />
+                <marker date="1508601665605" expanded="true" signature="1860:1921" ph="/* display introductory message ... */" />
+                <marker date="1508601665605" expanded="true" signature="2102:2167" ph="/* initialize the mission traveler ... */" />
+                <marker date="1508601665605" expanded="true" signature="2214:2271" ph="/* prepare game play screen ... */" />
+                <marker date="1508601665605" expanded="true" signature="2517:2559" ph="/* game loop ... */" />
+                <marker date="1508601665605" expanded="true" signature="2592:4612" ph="{...}" />
+                <marker date="1508601665605" expanded="true" signature="2714:2787" ph="/* get next game action from player ... */" />
+                <marker date="1508601665605" expanded="true" signature="2903:2994" ph="/* choose an action based on the player's menu choice ... */" />
+                <marker date="1508601665605" expanded="true" signature="3040:4598" ph="{...}" />
+                <marker date="1508601665605" expanded="true" signature="4626:4680" ph="/* close the application ... */" />
+                <marker date="1508601665605" expanded="true" signature="4733:4808" ph="/// initialize the player info ... " />
+                <marker date="1508601665605" expanded="true" signature="4849:5257" ph="{...}" />
+                <marker date="1508601665605" expanded="true" signature="5298:6264" ph="{...}" />
+                <marker date="1508601665605" expanded="true" signature="5389:5567" ph="{...}" />
+                <marker date="1508601665605" expanded="true" signature="5611:5865" ph="{...}" />
+                <marker date="1508601665605" expanded="true" signature="5996:6071" ph="{...}" />
+                <marker date="1508601665605" expanded="true" signature="6181:6254" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsoleView.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Views/ConsoleView.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4410">
+              <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+              <folding>
+                <marker date="1508592190207" expanded="false" signature="6:115" ph="..." />
+                <marker date="1508592190207" expanded="true" signature="141:18567" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="148:199" ph="/// view class ... " />
+                <marker date="1508592190207" expanded="true" signature="228:18565" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="243:429" ph="FIELDS" />
+                <marker date="1508592190207" expanded="true" signature="267:346" ph="/* declare game objects for the ConsoleView object to use ... */" />
+                <marker date="1508592190207" expanded="true" signature="439:477" ph="PROPERTIES" />
+                <marker date="1508592190207" expanded="true" signature="487:851" ph="CONSTRUCTORS" />
+                <marker date="1508592190207" expanded="true" signature="517:620" ph="/// default constructor to create the console view objects ... " />
+                <marker date="1508592190207" expanded="true" signature="693:831" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="861:18559" ph="METHODS" />
+                <marker date="1508592190207" expanded="true" signature="885:1261" ph="/// display all of the elements on the game play screen on the console ... " />
+                <marker date="1508592190207" expanded="true" signature="1389:1933" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="1412:1482" ph="/* reset screen to default window colors ... */" />
+                <marker date="1508592190207" expanded="true" signature="1943:2026" ph="/// wait for any keystroke to continue ... " />
+                <marker date="1508592190207" expanded="true" signature="2063:2114" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="2124:2261" ph="/// get a action menu choice from the user ... " />
+                <marker date="1508592190207" expanded="true" signature="2322:2982" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="2992:3117" ph="/// get a string value from the user ... " />
+                <marker date="1508592190207" expanded="true" signature="3151:3210" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="3220:3348" ph="/// get an integer value from the user ... " />
+                <marker date="1508592190207" expanded="true" signature="3453:4564" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="3613:4528" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="3700:4226" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="3806:3896" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="3921:4208" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="4247:4514" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="4574:4715" ph="/// get a character race value from the user ... " />
+                <marker date="1508592190207" expanded="true" signature="4759:4931" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="4941:5065" ph="/// display splash screen ... " />
+                <marker date="1508592190207" expanded="true" signature="5106:6811" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="6711:6772" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="6821:6908" ph="/// initialize the console window settings ... " />
+                <marker date="1508592190207" expanded="true" signature="6956:7448" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="6979:7049" ph="/* control the console window properties ... */" />
+                <marker date="1508592190207" expanded="true" signature="7265:7335" ph="/* set the default console window values ... */" />
+                <marker date="1508592190207" expanded="true" signature="7458:7633" ph="/// display the correct menu in the menu box of the game screen ... " />
+                <marker date="1508592190207" expanded="true" signature="7680:9355" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="7844:7900" ph="/* display menu box border ... */" />
+                <marker date="1508592190207" expanded="true" signature="8156:8212" ph="/* display menu box header ... */" />
+                <marker date="1508592190207" expanded="true" signature="8585:8638" ph="/* display menu choices ... */" />
+                <marker date="1508592190207" expanded="true" signature="8934:9345" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="9009:9331" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="9365:9561" ph="/// display the text in the message box of the game screen ... " />
+                <marker date="1508592190207" expanded="true" signature="9639:11451" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="9662:9734" ph="/* display the outline for the message box ... */" />
+                <marker date="1508592190207" expanded="true" signature="10154:10213" ph="/* display message box header ... */" />
+                <marker date="1508592190207" expanded="true" signature="10603:10672" ph="/* display the text for the message box ... */" />
+                <marker date="1508592190207" expanded="true" signature="11251:11440" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="11460:11555" ph="/// display a list of all the space time locations ... " />
+                <marker date="1508592190207" expanded="true" signature="11609:11778" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="11819:12094" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="12104:12190" ph="/// draw the input box on the game screen ... " />
+                <marker date="1508592190207" expanded="true" signature="12228:12643" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="12653:12798" ph="/// display the prompt in the input box of the game screen ... " />
+                <marker date="1508592190207" expanded="true" signature="12855:13146" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="13156:13332" ph="/// display the error message in the input box of the game screen ... " />
+                <marker date="1508592190207" expanded="true" signature="13398:13783" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="13793:13861" ph="/// clear the input box ... " />
+                <marker date="1508592190207" expanded="true" signature="13898:14455" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="14155:14369" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="14465:14654" ph="/// get the player's initial information at the beginning of the game ... " />
+                <marker date="1508592190207" expanded="true" signature="14703:16267" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="14775:14813" ph="/* intro ... */" />
+                <marker date="1508592190207" expanded="true" signature="14978:15030" ph="/* get traveler's name ... */" />
+                <marker date="1508592190207" expanded="true" signature="15279:15330" ph="/* get traveler's age ... */" />
+                <marker date="1508592190207" expanded="true" signature="15665:15717" ph="/* get traveler's race ... */" />
+                <marker date="1508592190207" expanded="true" signature="15989:16046" ph="/* echo the traveler's info ... */" />
+                <marker date="1508592190207" expanded="true" signature="16321:17738" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="16597:17687" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="16956:17481" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="17112:17213" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="17238:17463" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="17502:17673" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="17785:18268" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="17979:18115" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="18278:18539" ph="----- display responses to menu action choices -----" />
+                <marker date="1508592190207" expanded="true" signature="18381:18519" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Text.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Assets/Text.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="229" column="80" lean-forward="false" selection-start-line="229" selection-start-column="80" selection-end-line="229" selection-end-column="80" />
+              <folding>
+                <marker date="1508601033033" expanded="false" signature="6:115" ph="..." />
+                <marker date="1508601033033" expanded="true" signature="141:10225" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="148:271" ph="/// class to store static and to generate dynamic text for the message and input boxes ... " />
+                <marker date="1508601033033" expanded="true" signature="300:10223" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="513:4588" ph="INTITIAL GAME SETUP" />
+                <marker date="1508601033033" expanded="true" signature="585:1312" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="1365:1858" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="1868:4568" ph="Initialize Mission Text" />
+                <marker date="1508601033033" expanded="true" signature="1954:2331" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="2396:2644" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="2719:3056" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="3142:3865" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="3614:3778" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="3681:3764" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="3952:4548" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="4598:5830" ph="MAIN MENU ACTION SCREENS" />
+                <marker date="1508601033033" expanded="true" signature="4696:4989" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="5004:5405" ph="/* public static string Travel(int currentSpaceTimeLocationId, List&lt;SpaceTimeLocation&gt; spaceTimeLocations) ... */" />
+                <marker date="1508601033033" expanded="true" signature="5416:5810" ph="/* string spaceTimeLocationList = null; ... */" />
+                <marker date="1508601033033" expanded="true" signature="5840:10216" ph="ACTIONS SPRINT TWO" />
+                <marker date="1508601033033" expanded="true" signature="5966:6801" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="6442:6700" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="6880:7118" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="7222:8487" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="7907:8386" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="8016:8355" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="8574:8806" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="8904:9739" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="9380:9638" ph="{...}" />
+                <marker date="1508601033033" expanded="true" signature="9871:10195" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Character.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Models/Character.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="74" column="9" lean-forward="false" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+              <folding>
+                <marker date="1508592190207" expanded="false" signature="6:115" ph="..." />
+                <marker date="1508592190207" expanded="true" signature="141:1539" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="148:238" ph="/// base class for the player and all game characters ... " />
+                <marker date="1508592190207" expanded="true" signature="265:1537" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="280:449" ph="ENUMERABLES" />
+                <marker date="1508592190207" expanded="true" signature="329:429" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="459:624" ph="FIELDS" />
+                <marker date="1508592190207" expanded="true" signature="634:1178" ph="PROPERTIES" />
+                <marker date="1508592190207" expanded="true" signature="680:769" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="809:928" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="952:1039" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="1069:1158" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="1188:1484" ph="CONSTRUCTORS" />
+                <marker date="1508592190207" expanded="true" signature="1236:1257" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="1336:1464" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="1494:1531" ph="METHODS" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Traveler.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Models/Traveler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="768">
+              <caret line="78" column="13" lean-forward="false" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+              <folding>
+                <marker date="1508594725109" expanded="false" signature="6:153" ph="..." />
+                <marker date="1508594725109" expanded="true" signature="179:1870" ph="{...}" />
+                <marker date="1508594725109" expanded="true" signature="186:274" ph="/// the character class the player uses in the game ... " />
+                <marker date="1508594725109" expanded="true" signature="312:1868" ph="{...}" />
+                <marker date="1508594725109" expanded="true" signature="327:367" ph="ENUMERABLES" />
+                <marker date="1508594725109" expanded="true" signature="377:555" ph="FIELDS" />
+                <marker date="1508594725109" expanded="true" signature="566:1180" ph="PROPERTIES" />
+                <marker date="1508594725109" expanded="true" signature="636:767" ph="{...}" />
+                <marker date="1508594725109" expanded="true" signature="795:888" ph="{...}" />
+                <marker date="1508594725109" expanded="true" signature="927:1026" ph="{...}" />
+                <marker date="1508594725109" expanded="true" signature="1061:1152" ph="{...}" />
+                <marker date="1508594725109" expanded="true" signature="1191:1532" ph="CONSTRUCTORS" />
+                <marker date="1508594725109" expanded="true" signature="1238:1316" ph="{...}" />
+                <marker date="1508594725109" expanded="true" signature="1434:1512" ph="{...}" />
+                <marker date="1508594725109" expanded="true" signature="1543:1862" ph="METHODS" />
+                <marker date="1508594725109" expanded="true" signature="1616:1842" ph="{...}" />
+                <marker date="1508594725109" expanded="true" signature="1700:1757" ph="{...}" />
+                <marker date="1508594725109" expanded="true" signature="1774:1832" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1508592190207" expanded="false" signature="6:115" ph="..." />
+                <marker date="1508592190207" expanded="true" signature="141:506" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="161:504" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="176:346" ph="/// instantiate the game controller, passing all control to the new Controller object ... " />
+                <marker date="1508592190207" expanded="true" signature="386:496" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpaceTimeLocation.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Models/SpaceTimeLocation.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <marker date="1508602948553" expanded="false" signature="6:115" ph="..." />
+                <marker date="1508602948553" expanded="true" signature="141:1978" ph="{...}" />
+                <marker date="1508602948553" expanded="true" signature="148:221" ph="/// class for the game map locations ... " />
+                <marker date="1508602948553" expanded="true" signature="256:1976" ph="{...}" />
+                <marker date="1508602948553" expanded="true" signature="271:656" ph="FIELDS" />
+                <marker date="1508602948553" expanded="true" signature="667:1867" ph="PROPERTIES" />
+                <marker date="1508602948553" expanded="true" signature="719:820" ph="{...}" />
+                <marker date="1508602948553" expanded="true" signature="860:979" ph="{...}" />
+                <marker date="1508602948553" expanded="true" signature="1013:1120" ph="{...}" />
+                <marker date="1508602948553" expanded="true" signature="1161:1276" ph="{...}" />
+                <marker date="1508602948553" expanded="true" signature="1311:1414" ph="{...}" />
+                <marker date="1508602948553" expanded="true" signature="1453:1564" ph="{...}" />
+                <marker date="1508602948553" expanded="true" signature="1596:1697" ph="{...}" />
+                <marker date="1508602948553" expanded="true" signature="1734:1847" ph="{...}" />
+                <marker date="1508602948553" expanded="true" signature="1878:1920" ph="CONSTRUCTORS" />
+                <marker date="1508602948553" expanded="true" signature="1931:1968" ph="METHODS" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpaceTimeLocation.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Solution/Models/SpaceTimeLocation.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-176">
+              <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+              <folding>
+                <marker date="1508592190203" expanded="false" signature="6:115" ph="..." />
+                <marker date="1508592190203" expanded="true" signature="141:1978" ph="{...}" />
+                <marker date="1508592190203" expanded="true" signature="148:221" ph="/// class for the game map locations ... " />
+                <marker date="1508592190203" expanded="true" signature="256:1976" ph="{...}" />
+                <marker date="1508592190203" expanded="true" signature="271:656" ph="FIELDS" />
+                <marker date="1508592190203" expanded="true" signature="667:1867" ph="PROPERTIES" />
+                <marker date="1508592190203" expanded="true" signature="719:820" ph="{...}" />
+                <marker date="1508592190203" expanded="true" signature="860:979" ph="{...}" />
+                <marker date="1508592190203" expanded="true" signature="1013:1120" ph="{...}" />
+                <marker date="1508592190203" expanded="true" signature="1161:1276" ph="{...}" />
+                <marker date="1508592190203" expanded="true" signature="1311:1414" ph="{...}" />
+                <marker date="1508592190203" expanded="true" signature="1453:1564" ph="{...}" />
+                <marker date="1508592190203" expanded="true" signature="1596:1697" ph="{...}" />
+                <marker date="1508592190203" expanded="true" signature="1734:1847" ph="{...}" />
+                <marker date="1508592190203" expanded="true" signature="1878:1920" ph="CONSTRUCTORS" />
+                <marker date="1508592190203" expanded="true" signature="1931:1968" ph="METHODS" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActionMenu.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Assets/ActionMenu.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="43" selection-end-column="67" />
+              <folding>
+                <marker date="1508592190203" expanded="false" signature="6:115" ph="..." />
+                <marker date="1508592190203" expanded="true" signature="141:1953" ph="{...}" />
+                <marker date="1508592190203" expanded="true" signature="148:242" ph="/// static class to hold key/value pairs for menu options ... " />
+                <marker date="1508592190203" expanded="true" signature="277:1951" ph="{...}" />
+                <marker date="1508592190203" expanded="true" signature="345:585" ph="{...}" />
+                <marker date="1508592190203" expanded="true" signature="499:575" ph="{...}" />
+                <marker date="1508592190203" expanded="true" signature="654:905" ph="{...}" />
+                <marker date="1508592190203" expanded="true" signature="827:895" ph="{...}" />
+                <marker date="1508592190203" expanded="true" signature="965:1502" ph="{...}" />
+                <marker date="1508592190203" expanded="true" signature="1120:1492" ph="{...}" />
+                <marker date="1508592190203" expanded="true" signature="1513:1945" ph="/* public static Menu ManageTraveler = new Menu() ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TravelerAction.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Models/TravelerAction.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="29" selection-end-column="12" />
+              <folding>
+                <marker date="1508592190207" expanded="false" signature="6:115" ph="..." />
+                <marker date="1508592190207" expanded="true" signature="141:643" ph="{...}" />
+                <marker date="1508592190207" expanded="true" signature="148:224" ph="/// enum of all possible player actions ... " />
+                <marker date="1508592190207" expanded="true" signature="255:641" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Models/SpaceTimeLocation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TheAionProject.S2_Solution/Controllers/Controller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Controllers/Controller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Views/ConsoleView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Assets/Text.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Assets/UniverseObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Assets/ActionMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Models/Character.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Models/TravelerAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TheAionProject.S2_Solution/Models/SpaceTimeLocation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Models/Traveler.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TheAionProject.S2_Solution/Controllers/Controller.cs" />
+        <option value="$PROJECT_DIR$/TheAionProject.S2_Starter/Models/Traveler.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
+        <option value="$PROJECT_DIR$/TheAionProject.S2_Starter/Controllers/Controller.cs" />
+        <option value="$PROJECT_DIR$/TheAionProject.S2_Starter/Assets/Text.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="928" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TheAionProject (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TheAionProject (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TheAionProject.S2_Starter" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TheAionProject (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TheAionProject.S2_Starter" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TheAionProject (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TheAionProject.S2_Starter" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ConsoleUtilities" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TheAionProject (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TheAionProject.S2_Starter" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TheAionProject (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TheAionProject.S2_Starter" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TheAionProject (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TheAionProject.S2_Starter" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DungeonMaster/TB_QuestGame.sln" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/TheAionProject.S2_Starter/TheAionProject.S2_Starter.csproj" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5.2" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/TheAionProject.S2_Starter/bin/Debug/TheAionProject.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f42079ff-c648-4f80-a80f-cf355f4486f9" name="Default" comment="" />
+      <created>1508592355403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508592355403</updated>
+      <workItem from="1508592358772" duration="4699000" />
+      <workItem from="1508602774846" duration="625000" />
+      <workItem from="1508690885910" duration="4452000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9776000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="928" height="1056" extended-state="4" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5089005" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.207483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Controllers/Controller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3168">
+          <caret line="180" column="65" lean-forward="false" selection-start-line="180" selection-start-column="65" selection-end-line="180" selection-end-column="65" />
+          <folding>
+            <marker date="1508601665605" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508601665605" expanded="true" signature="141:6292" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="148:238" ph="/// controller for the MVC pattern in the application ... " />
+            <marker date="1508601665605" expanded="true" signature="266:6290" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="281:529" ph="FIELDS" />
+            <marker date="1508601665605" expanded="true" signature="539:578" ph="PROPERTIES" />
+            <marker date="1508601665605" expanded="true" signature="588:899" ph="CONSTRUCTORS" />
+            <marker date="1508601665605" expanded="true" signature="637:879" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="660:729" ph="/* setup all of the objects in the game ... */" />
+            <marker date="1508601665605" expanded="true" signature="773:839" ph="/* begins running the application UI ... */" />
+            <marker date="1508601665605" expanded="true" signature="909:6284" ph="METHODS" />
+            <marker date="1508601665605" expanded="true" signature="934:1016" ph="/// initialize the major game objects ... " />
+            <marker date="1508601665605" expanded="true" signature="1054:1317" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="1327:1428" ph="/// method to manage the application setup and game loop ... " />
+            <marker date="1508601665605" expanded="true" signature="1466:4723" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="1561:1615" ph="/* display splash screen ... */" />
+            <marker date="1508601665605" expanded="true" signature="1695:1750" ph="/* player chooses to quit ... */" />
+            <marker date="1508601665605" expanded="true" signature="1781:1846" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="1860:1921" ph="/* display introductory message ... */" />
+            <marker date="1508601665605" expanded="true" signature="2102:2167" ph="/* initialize the mission traveler ... */" />
+            <marker date="1508601665605" expanded="true" signature="2214:2271" ph="/* prepare game play screen ... */" />
+            <marker date="1508601665605" expanded="true" signature="2517:2559" ph="/* game loop ... */" />
+            <marker date="1508601665605" expanded="true" signature="2592:4612" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="2714:2787" ph="/* get next game action from player ... */" />
+            <marker date="1508601665605" expanded="true" signature="2903:2994" ph="/* choose an action based on the player's menu choice ... */" />
+            <marker date="1508601665605" expanded="true" signature="3040:4598" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="4626:4680" ph="/* close the application ... */" />
+            <marker date="1508601665605" expanded="true" signature="4733:4808" ph="/// initialize the player info ... " />
+            <marker date="1508601665605" expanded="true" signature="4849:5257" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="5298:6264" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="5389:5567" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="5611:5865" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="5996:6071" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="6181:6254" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Assets/UniverseObjects.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508592190207" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508592190207" expanded="true" signature="148:4058" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="155:281" ph="/// static class to hold all objects in the game universe; locations, game objects, npc's ... " />
+            <marker date="1508592190207" expanded="true" signature="321:4056" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="440:4049" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="489:1260" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="1309:1936" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="1985:2619" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="2668:3360" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="3409:4039" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Assets/Text.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5130">
+          <caret line="289" column="33" lean-forward="false" selection-start-line="289" selection-start-column="33" selection-end-line="289" selection-end-column="33" />
+          <folding>
+            <marker date="1508601033033" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508601033033" expanded="true" signature="141:10225" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="148:271" ph="/// class to store static and to generate dynamic text for the message and input boxes ... " />
+            <marker date="1508601033033" expanded="true" signature="300:10223" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="513:4588" ph="INTITIAL GAME SETUP" />
+            <marker date="1508601033033" expanded="true" signature="585:1312" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="1365:1858" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="1868:4568" ph="Initialize Mission Text" />
+            <marker date="1508601033033" expanded="true" signature="1954:2331" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="2396:2644" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="2719:3056" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="3142:3865" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="3614:3778" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="3681:3764" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="3952:4548" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="4598:5830" ph="MAIN MENU ACTION SCREENS" />
+            <marker date="1508601033033" expanded="true" signature="4696:4989" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="5004:5405" ph="/* public static string Travel(int currentSpaceTimeLocationId, List&lt;SpaceTimeLocation&gt; spaceTimeLocations) ... */" />
+            <marker date="1508601033033" expanded="true" signature="5416:5810" ph="/* string spaceTimeLocationList = null; ... */" />
+            <marker date="1508601033033" expanded="true" signature="5840:10216" ph="ACTIONS SPRINT TWO" />
+            <marker date="1508601033033" expanded="true" signature="5966:6801" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="6442:6700" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="6880:7118" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="7222:8487" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="7907:8386" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="8016:8355" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="8574:8806" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="8904:9739" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="9380:9638" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="9871:10195" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Models/Traveler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="87" column="18" lean-forward="false" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
+          <folding>
+            <marker date="1508594725109" expanded="false" signature="6:153" ph="..." />
+            <marker date="1508594725109" expanded="true" signature="179:1870" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="186:274" ph="/// the character class the player uses in the game ... " />
+            <marker date="1508594725109" expanded="true" signature="312:1868" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="327:367" ph="ENUMERABLES" />
+            <marker date="1508594725109" expanded="true" signature="377:555" ph="FIELDS" />
+            <marker date="1508594725109" expanded="true" signature="566:1180" ph="PROPERTIES" />
+            <marker date="1508594725109" expanded="true" signature="636:767" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="795:888" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="927:1026" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="1061:1152" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="1191:1532" ph="CONSTRUCTORS" />
+            <marker date="1508594725109" expanded="true" signature="1238:1316" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="1434:1512" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="1543:1862" ph="METHODS" />
+            <marker date="1508594725109" expanded="true" signature="1616:1842" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="1700:1757" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="1774:1832" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508592190207" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508592190207" expanded="true" signature="141:506" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="161:504" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="176:346" ph="/// instantiate the game controller, passing all control to the new Controller object ... " />
+            <marker date="1508592190207" expanded="true" signature="386:496" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Models/SpaceTimeLocation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <marker date="1508602948553" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508602948553" expanded="true" signature="141:1978" ph="{...}" />
+            <marker date="1508602948553" expanded="true" signature="148:221" ph="/// class for the game map locations ... " />
+            <marker date="1508602948553" expanded="true" signature="256:1976" ph="{...}" />
+            <marker date="1508602948553" expanded="true" signature="271:656" ph="FIELDS" />
+            <marker date="1508602948553" expanded="true" signature="667:1867" ph="PROPERTIES" />
+            <marker date="1508602948553" expanded="true" signature="719:820" ph="{...}" />
+            <marker date="1508602948553" expanded="true" signature="860:979" ph="{...}" />
+            <marker date="1508602948553" expanded="true" signature="1013:1120" ph="{...}" />
+            <marker date="1508602948553" expanded="true" signature="1161:1276" ph="{...}" />
+            <marker date="1508602948553" expanded="true" signature="1311:1414" ph="{...}" />
+            <marker date="1508602948553" expanded="true" signature="1453:1564" ph="{...}" />
+            <marker date="1508602948553" expanded="true" signature="1596:1697" ph="{...}" />
+            <marker date="1508602948553" expanded="true" signature="1734:1847" ph="{...}" />
+            <marker date="1508602948553" expanded="true" signature="1878:1920" ph="CONSTRUCTORS" />
+            <marker date="1508602948553" expanded="true" signature="1931:1968" ph="METHODS" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Solution/Models/SpaceTimeLocation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding>
+            <marker date="1508592190203" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508592190203" expanded="true" signature="141:1978" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="148:221" ph="/// class for the game map locations ... " />
+            <marker date="1508592190203" expanded="true" signature="256:1976" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="271:656" ph="FIELDS" />
+            <marker date="1508592190203" expanded="true" signature="667:1867" ph="PROPERTIES" />
+            <marker date="1508592190203" expanded="true" signature="719:820" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="860:979" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="1013:1120" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="1161:1276" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="1311:1414" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="1453:1564" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="1596:1697" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="1734:1847" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="1878:1920" ph="CONSTRUCTORS" />
+            <marker date="1508592190203" expanded="true" signature="1931:1968" ph="METHODS" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Controllers/Controller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508601665605" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508601665605" expanded="true" signature="141:6292" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="148:238" ph="/// controller for the MVC pattern in the application ... " />
+            <marker date="1508601665605" expanded="true" signature="266:6290" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="281:529" ph="FIELDS" />
+            <marker date="1508601665605" expanded="true" signature="539:578" ph="PROPERTIES" />
+            <marker date="1508601665605" expanded="true" signature="588:899" ph="CONSTRUCTORS" />
+            <marker date="1508601665605" expanded="true" signature="637:879" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="660:729" ph="/* setup all of the objects in the game ... */" />
+            <marker date="1508601665605" expanded="true" signature="773:839" ph="/* begins running the application UI ... */" />
+            <marker date="1508601665605" expanded="true" signature="909:6284" ph="METHODS" />
+            <marker date="1508601665605" expanded="true" signature="934:1016" ph="/// initialize the major game objects ... " />
+            <marker date="1508601665605" expanded="true" signature="1054:1317" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="1327:1428" ph="/// method to manage the application setup and game loop ... " />
+            <marker date="1508601665605" expanded="true" signature="1466:4723" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="1561:1615" ph="/* display splash screen ... */" />
+            <marker date="1508601665605" expanded="true" signature="1695:1750" ph="/* player chooses to quit ... */" />
+            <marker date="1508601665605" expanded="true" signature="1781:1846" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="1860:1921" ph="/* display introductory message ... */" />
+            <marker date="1508601665605" expanded="true" signature="2102:2167" ph="/* initialize the mission traveler ... */" />
+            <marker date="1508601665605" expanded="true" signature="2214:2271" ph="/* prepare game play screen ... */" />
+            <marker date="1508601665605" expanded="true" signature="2517:2559" ph="/* game loop ... */" />
+            <marker date="1508601665605" expanded="true" signature="2592:4612" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="2714:2787" ph="/* get next game action from player ... */" />
+            <marker date="1508601665605" expanded="true" signature="2903:2994" ph="/* choose an action based on the player's menu choice ... */" />
+            <marker date="1508601665605" expanded="true" signature="3040:4598" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="4626:4680" ph="/* close the application ... */" />
+            <marker date="1508601665605" expanded="true" signature="4733:4808" ph="/// initialize the player info ... " />
+            <marker date="1508601665605" expanded="true" signature="4849:5257" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="5298:6264" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="5389:5567" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="5611:5865" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="5996:6071" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="6181:6254" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Assets/UniverseObjects.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508592190207" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508592190207" expanded="true" signature="148:4058" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="155:281" ph="/// static class to hold all objects in the game universe; locations, game objects, npc's ... " />
+            <marker date="1508592190207" expanded="true" signature="321:4056" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="440:4049" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="489:1260" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="1309:1936" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="1985:2619" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="2668:3360" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="3409:4039" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Assets/Text.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5130">
+          <caret line="289" column="33" lean-forward="false" selection-start-line="289" selection-start-column="33" selection-end-line="289" selection-end-column="33" />
+          <folding>
+            <marker date="1508601033033" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508601033033" expanded="true" signature="141:10225" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="148:271" ph="/// class to store static and to generate dynamic text for the message and input boxes ... " />
+            <marker date="1508601033033" expanded="true" signature="300:10223" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="513:4588" ph="INTITIAL GAME SETUP" />
+            <marker date="1508601033033" expanded="true" signature="585:1312" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="1365:1858" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="1868:4568" ph="Initialize Mission Text" />
+            <marker date="1508601033033" expanded="true" signature="1954:2331" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="2396:2644" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="2719:3056" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="3142:3865" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="3614:3778" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="3681:3764" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="3952:4548" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="4598:5830" ph="MAIN MENU ACTION SCREENS" />
+            <marker date="1508601033033" expanded="true" signature="4696:4989" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="5004:5405" ph="/* public static string Travel(int currentSpaceTimeLocationId, List&lt;SpaceTimeLocation&gt; spaceTimeLocations) ... */" />
+            <marker date="1508601033033" expanded="true" signature="5416:5810" ph="/* string spaceTimeLocationList = null; ... */" />
+            <marker date="1508601033033" expanded="true" signature="5840:10216" ph="ACTIONS SPRINT TWO" />
+            <marker date="1508601033033" expanded="true" signature="5966:6801" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="6442:6700" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="6880:7118" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="7222:8487" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="7907:8386" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="8016:8355" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="8574:8806" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="8904:9739" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="9380:9638" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="9871:10195" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Models/Traveler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="87" column="18" lean-forward="false" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
+          <folding>
+            <marker date="1508594725109" expanded="false" signature="6:153" ph="..." />
+            <marker date="1508594725109" expanded="true" signature="179:1870" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="186:274" ph="/// the character class the player uses in the game ... " />
+            <marker date="1508594725109" expanded="true" signature="312:1868" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="327:367" ph="ENUMERABLES" />
+            <marker date="1508594725109" expanded="true" signature="377:555" ph="FIELDS" />
+            <marker date="1508594725109" expanded="true" signature="566:1180" ph="PROPERTIES" />
+            <marker date="1508594725109" expanded="true" signature="636:767" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="795:888" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="927:1026" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="1061:1152" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="1191:1532" ph="CONSTRUCTORS" />
+            <marker date="1508594725109" expanded="true" signature="1238:1316" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="1434:1512" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="1543:1862" ph="METHODS" />
+            <marker date="1508594725109" expanded="true" signature="1616:1842" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="1700:1757" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="1774:1832" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Solution/Controllers/Controller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="224" column="72" lean-forward="false" selection-start-line="224" selection-start-column="72" selection-end-line="224" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project Information.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Assets/UniverseObjects.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508592190207" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508592190207" expanded="true" signature="148:4058" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="155:281" ph="/// static class to hold all objects in the game universe; locations, game objects, npc's ... " />
+            <marker date="1508592190207" expanded="true" signature="321:4056" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="440:4049" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="489:1260" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="1309:1936" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="1985:2619" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="2668:3360" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="3409:4039" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508592190207" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508592190207" expanded="true" signature="141:506" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="161:504" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="176:346" ph="/// instantiate the game controller, passing all control to the new Controller object ... " />
+            <marker date="1508592190207" expanded="true" signature="386:496" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Solution/Models/SpaceTimeLocation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding>
+            <marker date="1508592190203" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508592190203" expanded="true" signature="141:1978" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="148:221" ph="/// class for the game map locations ... " />
+            <marker date="1508592190203" expanded="true" signature="256:1976" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="271:656" ph="FIELDS" />
+            <marker date="1508592190203" expanded="true" signature="667:1867" ph="PROPERTIES" />
+            <marker date="1508592190203" expanded="true" signature="719:820" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="860:979" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="1013:1120" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="1161:1276" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="1311:1414" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="1453:1564" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="1596:1697" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="1734:1847" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="1878:1920" ph="CONSTRUCTORS" />
+            <marker date="1508592190203" expanded="true" signature="1931:1968" ph="METHODS" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Assets/ActionMenu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="43" selection-end-column="67" />
+          <folding>
+            <marker date="1508592190203" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508592190203" expanded="true" signature="141:1953" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="148:242" ph="/// static class to hold key/value pairs for menu options ... " />
+            <marker date="1508592190203" expanded="true" signature="277:1951" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="345:585" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="499:575" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="654:905" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="827:895" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="965:1502" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="1120:1492" ph="{...}" />
+            <marker date="1508592190203" expanded="true" signature="1513:1945" ph="/* public static Menu ManageTraveler = new Menu() ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Models/TravelerAction.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="29" selection-end-column="12" />
+          <folding>
+            <marker date="1508592190207" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508592190207" expanded="true" signature="141:643" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="148:224" ph="/// enum of all possible player actions ... " />
+            <marker date="1508592190207" expanded="true" signature="255:641" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Models/SpaceTimeLocation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <marker date="1508602948553" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508602948553" expanded="true" signature="141:1978" ph="{...}" />
+            <marker date="1508602948553" expanded="true" signature="148:221" ph="/// class for the game map locations ... " />
+            <marker date="1508602948553" expanded="true" signature="256:1976" ph="{...}" />
+            <marker date="1508602948553" expanded="true" signature="271:656" ph="FIELDS" />
+            <marker date="1508602948553" expanded="true" signature="667:1867" ph="PROPERTIES" />
+            <marker date="1508602948553" expanded="true" signature="719:820" ph="{...}" />
+            <marker date="1508602948553" expanded="true" signature="860:979" ph="{...}" />
+            <marker date="1508602948553" expanded="true" signature="1013:1120" ph="{...}" />
+            <marker date="1508602948553" expanded="true" signature="1161:1276" ph="{...}" />
+            <marker date="1508602948553" expanded="true" signature="1311:1414" ph="{...}" />
+            <marker date="1508602948553" expanded="true" signature="1453:1564" ph="{...}" />
+            <marker date="1508602948553" expanded="true" signature="1596:1697" ph="{...}" />
+            <marker date="1508602948553" expanded="true" signature="1734:1847" ph="{...}" />
+            <marker date="1508602948553" expanded="true" signature="1878:1920" ph="CONSTRUCTORS" />
+            <marker date="1508602948553" expanded="true" signature="1931:1968" ph="METHODS" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Models/Traveler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="78" column="13" lean-forward="false" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+          <folding>
+            <marker date="1508594725109" expanded="false" signature="6:153" ph="..." />
+            <marker date="1508594725109" expanded="true" signature="179:1870" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="186:274" ph="/// the character class the player uses in the game ... " />
+            <marker date="1508594725109" expanded="true" signature="312:1868" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="327:367" ph="ENUMERABLES" />
+            <marker date="1508594725109" expanded="true" signature="377:555" ph="FIELDS" />
+            <marker date="1508594725109" expanded="true" signature="566:1180" ph="PROPERTIES" />
+            <marker date="1508594725109" expanded="true" signature="636:767" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="795:888" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="927:1026" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="1061:1152" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="1191:1532" ph="CONSTRUCTORS" />
+            <marker date="1508594725109" expanded="true" signature="1238:1316" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="1434:1512" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="1543:1862" ph="METHODS" />
+            <marker date="1508594725109" expanded="true" signature="1616:1842" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="1700:1757" ph="{...}" />
+            <marker date="1508594725109" expanded="true" signature="1774:1832" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Assets/Text.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="229" column="80" lean-forward="false" selection-start-line="229" selection-start-column="80" selection-end-line="229" selection-end-column="80" />
+          <folding>
+            <marker date="1508601033033" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508601033033" expanded="true" signature="141:10225" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="148:271" ph="/// class to store static and to generate dynamic text for the message and input boxes ... " />
+            <marker date="1508601033033" expanded="true" signature="300:10223" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="513:4588" ph="INTITIAL GAME SETUP" />
+            <marker date="1508601033033" expanded="true" signature="585:1312" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="1365:1858" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="1868:4568" ph="Initialize Mission Text" />
+            <marker date="1508601033033" expanded="true" signature="1954:2331" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="2396:2644" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="2719:3056" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="3142:3865" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="3614:3778" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="3681:3764" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="3952:4548" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="4598:5830" ph="MAIN MENU ACTION SCREENS" />
+            <marker date="1508601033033" expanded="true" signature="4696:4989" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="5004:5405" ph="/* public static string Travel(int currentSpaceTimeLocationId, List&lt;SpaceTimeLocation&gt; spaceTimeLocations) ... */" />
+            <marker date="1508601033033" expanded="true" signature="5416:5810" ph="/* string spaceTimeLocationList = null; ... */" />
+            <marker date="1508601033033" expanded="true" signature="5840:10216" ph="ACTIONS SPRINT TWO" />
+            <marker date="1508601033033" expanded="true" signature="5966:6801" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="6442:6700" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="6880:7118" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="7222:8487" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="7907:8386" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="8016:8355" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="8574:8806" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="8904:9739" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="9380:9638" ph="{...}" />
+            <marker date="1508601033033" expanded="true" signature="9871:10195" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Models/Character.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="74" column="9" lean-forward="false" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+          <folding>
+            <marker date="1508592190207" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508592190207" expanded="true" signature="141:1539" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="148:238" ph="/// base class for the player and all game characters ... " />
+            <marker date="1508592190207" expanded="true" signature="265:1537" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="280:449" ph="ENUMERABLES" />
+            <marker date="1508592190207" expanded="true" signature="329:429" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="459:624" ph="FIELDS" />
+            <marker date="1508592190207" expanded="true" signature="634:1178" ph="PROPERTIES" />
+            <marker date="1508592190207" expanded="true" signature="680:769" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="809:928" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="952:1039" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="1069:1158" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="1188:1484" ph="CONSTRUCTORS" />
+            <marker date="1508592190207" expanded="true" signature="1236:1257" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="1336:1464" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="1494:1531" ph="METHODS" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Controllers/Controller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <marker date="1508601665605" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508601665605" expanded="true" signature="141:6292" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="148:238" ph="/// controller for the MVC pattern in the application ... " />
+            <marker date="1508601665605" expanded="true" signature="266:6290" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="281:529" ph="FIELDS" />
+            <marker date="1508601665605" expanded="true" signature="539:578" ph="PROPERTIES" />
+            <marker date="1508601665605" expanded="true" signature="588:899" ph="CONSTRUCTORS" />
+            <marker date="1508601665605" expanded="true" signature="637:879" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="660:729" ph="/* setup all of the objects in the game ... */" />
+            <marker date="1508601665605" expanded="true" signature="773:839" ph="/* begins running the application UI ... */" />
+            <marker date="1508601665605" expanded="true" signature="909:6284" ph="METHODS" />
+            <marker date="1508601665605" expanded="true" signature="934:1016" ph="/// initialize the major game objects ... " />
+            <marker date="1508601665605" expanded="true" signature="1054:1317" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="1327:1428" ph="/// method to manage the application setup and game loop ... " />
+            <marker date="1508601665605" expanded="true" signature="1466:4723" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="1561:1615" ph="/* display splash screen ... */" />
+            <marker date="1508601665605" expanded="true" signature="1695:1750" ph="/* player chooses to quit ... */" />
+            <marker date="1508601665605" expanded="true" signature="1781:1846" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="1860:1921" ph="/* display introductory message ... */" />
+            <marker date="1508601665605" expanded="true" signature="2102:2167" ph="/* initialize the mission traveler ... */" />
+            <marker date="1508601665605" expanded="true" signature="2214:2271" ph="/* prepare game play screen ... */" />
+            <marker date="1508601665605" expanded="true" signature="2517:2559" ph="/* game loop ... */" />
+            <marker date="1508601665605" expanded="true" signature="2592:4612" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="2714:2787" ph="/* get next game action from player ... */" />
+            <marker date="1508601665605" expanded="true" signature="2903:2994" ph="/* choose an action based on the player's menu choice ... */" />
+            <marker date="1508601665605" expanded="true" signature="3040:4598" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="4626:4680" ph="/* close the application ... */" />
+            <marker date="1508601665605" expanded="true" signature="4733:4808" ph="/// initialize the player info ... " />
+            <marker date="1508601665605" expanded="true" signature="4849:5257" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="5298:6264" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="5389:5567" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="5611:5865" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="5996:6071" ph="{...}" />
+            <marker date="1508601665605" expanded="true" signature="6181:6254" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheAionProject.S2_Starter/Views/ConsoleView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4410">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding>
+            <marker date="1508592190207" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508592190207" expanded="true" signature="141:18567" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="148:199" ph="/// view class ... " />
+            <marker date="1508592190207" expanded="true" signature="228:18565" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="243:429" ph="FIELDS" />
+            <marker date="1508592190207" expanded="true" signature="267:346" ph="/* declare game objects for the ConsoleView object to use ... */" />
+            <marker date="1508592190207" expanded="true" signature="439:477" ph="PROPERTIES" />
+            <marker date="1508592190207" expanded="true" signature="487:851" ph="CONSTRUCTORS" />
+            <marker date="1508592190207" expanded="true" signature="517:620" ph="/// default constructor to create the console view objects ... " />
+            <marker date="1508592190207" expanded="true" signature="693:831" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="861:18559" ph="METHODS" />
+            <marker date="1508592190207" expanded="true" signature="885:1261" ph="/// display all of the elements on the game play screen on the console ... " />
+            <marker date="1508592190207" expanded="true" signature="1389:1933" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="1412:1482" ph="/* reset screen to default window colors ... */" />
+            <marker date="1508592190207" expanded="true" signature="1943:2026" ph="/// wait for any keystroke to continue ... " />
+            <marker date="1508592190207" expanded="true" signature="2063:2114" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="2124:2261" ph="/// get a action menu choice from the user ... " />
+            <marker date="1508592190207" expanded="true" signature="2322:2982" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="2992:3117" ph="/// get a string value from the user ... " />
+            <marker date="1508592190207" expanded="true" signature="3151:3210" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="3220:3348" ph="/// get an integer value from the user ... " />
+            <marker date="1508592190207" expanded="true" signature="3453:4564" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="3613:4528" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="3700:4226" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="3806:3896" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="3921:4208" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="4247:4514" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="4574:4715" ph="/// get a character race value from the user ... " />
+            <marker date="1508592190207" expanded="true" signature="4759:4931" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="4941:5065" ph="/// display splash screen ... " />
+            <marker date="1508592190207" expanded="true" signature="5106:6811" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="6711:6772" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="6821:6908" ph="/// initialize the console window settings ... " />
+            <marker date="1508592190207" expanded="true" signature="6956:7448" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="6979:7049" ph="/* control the console window properties ... */" />
+            <marker date="1508592190207" expanded="true" signature="7265:7335" ph="/* set the default console window values ... */" />
+            <marker date="1508592190207" expanded="true" signature="7458:7633" ph="/// display the correct menu in the menu box of the game screen ... " />
+            <marker date="1508592190207" expanded="true" signature="7680:9355" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="7844:7900" ph="/* display menu box border ... */" />
+            <marker date="1508592190207" expanded="true" signature="8156:8212" ph="/* display menu box header ... */" />
+            <marker date="1508592190207" expanded="true" signature="8585:8638" ph="/* display menu choices ... */" />
+            <marker date="1508592190207" expanded="true" signature="8934:9345" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="9009:9331" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="9365:9561" ph="/// display the text in the message box of the game screen ... " />
+            <marker date="1508592190207" expanded="true" signature="9639:11451" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="9662:9734" ph="/* display the outline for the message box ... */" />
+            <marker date="1508592190207" expanded="true" signature="10154:10213" ph="/* display message box header ... */" />
+            <marker date="1508592190207" expanded="true" signature="10603:10672" ph="/* display the text for the message box ... */" />
+            <marker date="1508592190207" expanded="true" signature="11251:11440" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="11460:11555" ph="/// display a list of all the space time locations ... " />
+            <marker date="1508592190207" expanded="true" signature="11609:11778" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="11819:12094" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="12104:12190" ph="/// draw the input box on the game screen ... " />
+            <marker date="1508592190207" expanded="true" signature="12228:12643" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="12653:12798" ph="/// display the prompt in the input box of the game screen ... " />
+            <marker date="1508592190207" expanded="true" signature="12855:13146" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="13156:13332" ph="/// display the error message in the input box of the game screen ... " />
+            <marker date="1508592190207" expanded="true" signature="13398:13783" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="13793:13861" ph="/// clear the input box ... " />
+            <marker date="1508592190207" expanded="true" signature="13898:14455" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="14155:14369" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="14465:14654" ph="/// get the player's initial information at the beginning of the game ... " />
+            <marker date="1508592190207" expanded="true" signature="14703:16267" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="14775:14813" ph="/* intro ... */" />
+            <marker date="1508592190207" expanded="true" signature="14978:15030" ph="/* get traveler's name ... */" />
+            <marker date="1508592190207" expanded="true" signature="15279:15330" ph="/* get traveler's age ... */" />
+            <marker date="1508592190207" expanded="true" signature="15665:15717" ph="/* get traveler's race ... */" />
+            <marker date="1508592190207" expanded="true" signature="15989:16046" ph="/* echo the traveler's info ... */" />
+            <marker date="1508592190207" expanded="true" signature="16321:17738" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="16597:17687" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="16956:17481" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="17112:17213" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="17238:17463" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="17502:17673" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="17785:18268" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="17979:18115" ph="{...}" />
+            <marker date="1508592190207" expanded="true" signature="18278:18539" ph="----- display responses to menu action choices -----" />
+            <marker date="1508592190207" expanded="true" signature="18381:18519" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
