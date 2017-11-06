@@ -1,0 +1,6 @@
+C:\Users\velisj\Git\NMC\CIT195\Demo_TheAionProject\TheAionProject.S3_Starter\bin\Debug\TheAionProject.S3_Starter.exe.config
+C:\Users\velisj\Git\NMC\CIT195\Demo_TheAionProject\TheAionProject.S3_Starter\bin\Debug\TheAionProject.S3_Starter.exe
+C:\Users\velisj\Git\NMC\CIT195\Demo_TheAionProject\TheAionProject.S3_Starter\bin\Debug\TheAionProject.S3_Starter.pdb
+C:\Users\velisj\Git\NMC\CIT195\Demo_TheAionProject\TheAionProject.S3_Starter\obj\Debug\TheAionProject.S3_Starter.csprojResolveAssemblyReference.cache
+C:\Users\velisj\Git\NMC\CIT195\Demo_TheAionProject\TheAionProject.S3_Starter\obj\Debug\TheAionProject.S3_Starter.exe
+C:\Users\velisj\Git\NMC\CIT195\Demo_TheAionProject\TheAionProject.S3_Starter\obj\Debug\TheAionProject.S3_Starter.pdb

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Timers;
 
 namespace TheAionProject
 {
@@ -58,6 +59,23 @@ namespace TheAionProject
             Console.CursorVisible = false;
         }
 
+        //
+        // timer example, it's cool, maybe use timers for a countdown?
+        //
+        //private void InitializeTimers()
+        //{
+        //    Timer InstantDeath = new Timer(5000);
+        //    InstantDeath.Elapsed += InstantDeathHandler;
+        //    InstantDeath.Start();
+        //    InstantDeath.AutoReset = false;
+            
+        //}
+
+        //private void InstantDeathHandler(object sender, ElapsedEventArgs e)
+        //{
+        //    _gameConsoleView.DisplayGamePlayScreen("You Lose!", "\t\tYou are dead.", ActionMenu.MainMenu, "");
+        //}
+
         /// <summary>
         /// method to manage the application setup and game loop
         /// </summary>
@@ -94,6 +112,9 @@ namespace TheAionProject
             //
             _currentLocation = _gameUniverse.GetSpaceTimeLocationById(_gameTraveler.SpaceTimeLocationID);
             _gameConsoleView.DisplayGamePlayScreen("Current Location", Text.CurrentLocationInfo(_currentLocation), ActionMenu.MainMenu, "");
+
+            // init timers
+            InitializeTimers();
 
             //
             // game loop

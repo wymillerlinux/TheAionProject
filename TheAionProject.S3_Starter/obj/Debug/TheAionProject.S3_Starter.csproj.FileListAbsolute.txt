@@ -1,2 +1,9 @@
 C:\Users\velisj\Git\NMC\CIT195\Demo_TheAionProject\TheAionProject.S3_Starter\bin\Debug\TheAionProject.S3_Starter.exe.config
 C:\Users\velisj\Google Drive\NMC\Courses\CIT195\CIT195 - Demonstrations\Demo - The Aion Project\S3\Demo_TheAionProject.S3_Starter\TheAionProject.S3_Starter\bin\Debug\TheAionProject.S3_Starter.exe.config
+C:\Users\mill1159\Desktop\Demo_TheAionProject.S3_Starter\TheAionProject.S3_Starter\bin\Debug\TheAionProject.S3_Starter.exe.config
+C:\Users\mill1159\Desktop\Demo_TheAionProject.S3_Starter\TheAionProject.S3_Starter\bin\Debug\TheAionProject.S3_Starter.exe
+C:\Users\mill1159\Desktop\Demo_TheAionProject.S3_Starter\TheAionProject.S3_Starter\bin\Debug\TheAionProject.S3_Starter.pdb
+C:\Users\mill1159\Desktop\Demo_TheAionProject.S3_Starter\TheAionProject.S3_Starter\obj\Debug\TheAionProject.S3_Starter.csprojResolveAssemblyReference.cache
+C:\Users\mill1159\Desktop\Demo_TheAionProject.S3_Starter\TheAionProject.S3_Starter\obj\Debug\TheAionProject.S3_Starter.csproj.CoreCompileInputs.cache
+C:\Users\mill1159\Desktop\Demo_TheAionProject.S3_Starter\TheAionProject.S3_Starter\obj\Debug\TheAionProject.S3_Starter.exe
+C:\Users\mill1159\Desktop\Demo_TheAionProject.S3_Starter\TheAionProject.S3_Starter\obj\Debug\TheAionProject.S3_Starter.pdb
