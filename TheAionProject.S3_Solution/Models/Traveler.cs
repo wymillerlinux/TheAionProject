@@ -12,7 +12,13 @@ namespace TheAionProject
     public class Traveler : Character
     {
         #region ENUMERABLES
-
+        public enum StartingItem
+        {
+            None,
+            Berry,
+            HealthPak,
+            StimPak
+        }
 
         #endregion
 
@@ -23,7 +29,9 @@ namespace TheAionProject
         private int _lives;
         private List<int> _spaceTimeLocationsVisited;
         private List<TravelerObject> _inventory;
-
+        private string _homePlanet;
+        private bool _isTerrorist = false;
+        private Enum _startingItem;
 
         #endregion
 
@@ -60,7 +68,16 @@ namespace TheAionProject
             set { _inventory = value; }
         }
 
-
+        public string HomePlanet
+        {
+            get { return _homePlanet; }
+            set { _homePlanet = value; }
+        }
+        public bool IsTerrorist
+        {
+            get { return _isTerrorist; }
+            set { _isTerrorist = value; }
+        }
         #endregion
 
 
@@ -95,6 +112,10 @@ namespace TheAionProject
             }
         }
 
+        public override string Greeting()
+        {
+            return $"Greetings, I am {base.Name}, and I am {base.Race}, and I am from {HomePlanet}";
+        }
         #endregion
     }
 }

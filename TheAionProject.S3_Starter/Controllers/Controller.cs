@@ -61,6 +61,7 @@ namespace TheAionProject
 
         //
         // timer example, it's cool, maybe use timers for a countdown?
+        // timer example included players dying after 5 five seconds cause why not?
         //
         //private void InitializeTimers()
         //{
@@ -113,8 +114,8 @@ namespace TheAionProject
             _currentLocation = _gameUniverse.GetSpaceTimeLocationById(_gameTraveler.SpaceTimeLocationID);
             _gameConsoleView.DisplayGamePlayScreen("Current Location", Text.CurrentLocationInfo(_currentLocation), ActionMenu.MainMenu, "");
 
-            // init timers
-            InitializeTimers();
+            // init timers, example, see method for details on why I didn't add this.
+            // InitializeTimers();
 
             //
             // game loop

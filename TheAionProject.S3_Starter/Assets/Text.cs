@@ -12,7 +12,7 @@ namespace TheAionProject
     public static class Text
     {
         public static List<string> HeaderText = new List<string>() { "The Aion Project" };
-        public static List<string> FooterText = new List<string>() { "Laughing Leaf Productions, 2016" };
+        public static List<string> FooterText = new List<string>() { "Laughing Leaf Productions, Entourage Software, 2016-2017" };
 
         #region INTITIAL GAME SETUP
 
@@ -109,6 +109,17 @@ namespace TheAionProject
             return messageBoxText;
         }
 
+        public static string InitializeMissionGetTravelerHomePlanet(Traveler gameTraveler)
+        {
+            string messageBoxText =
+                $"What is your home planet, {gameTraveler.Name}? We need this information for our databases." +
+                "That way, we can share your home planet for mon...*COUGH* *HACK* I mean, for security purposes." +
+                "\n";
+
+
+            return messageBoxText;
+        }
+
         public static string InitializeMissionEchoTravelerInfo(Traveler gameTraveler)
         {
             string messageBoxText =
@@ -120,7 +131,8 @@ namespace TheAionProject
                 $"\tTraveler Name: {gameTraveler.Name}\n" +
                 $"\tTraveler Age: {gameTraveler.Age}\n" +
                 $"\tTraveler Race: {gameTraveler.Race}\n" +
-                " \n" +
+                $"\tTraveler Home Planet: {gameTraveler.HomePlanet}" +
+                " \n\n" +
                 "Press any key to begin your mission.";
 
             return messageBoxText;

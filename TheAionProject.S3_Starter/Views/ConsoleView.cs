@@ -513,6 +513,13 @@ namespace TheAionProject
             traveler.Race = GetRace();
 
             //
+            // get traveler's home planet
+            //
+            DisplayGamePlayScreen("Mission Initialization - Home Planet", Text.InitializeMissionGetTravelerHomePlanet(traveler), ActionMenu.MissionIntro, "");
+            DisplayInputBoxPrompt("Enter your home planet: ");
+            traveler.HomePlanet = GetString();
+
+            //
             // echo the traveler's info
             //
             DisplayGamePlayScreen("Mission Initialization - Complete", Text.InitializeMissionEchoTravelerInfo(traveler), ActionMenu.MissionIntro, "");

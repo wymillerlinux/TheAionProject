@@ -18,6 +18,7 @@ namespace TheAionProject
 
         #region FIELDS
 
+        private string _homePlanet;
         private int _experiencePoints;
         private int _health;
         private int _lives;
@@ -52,6 +53,11 @@ namespace TheAionProject
             set { _spaceTimeLocationsVisited = value; }
         }
 
+        public string HomePlanet
+        {
+            get { return _homePlanet; }
+            set { _homePlanet = value; }
+        }
         #endregion
 
 
