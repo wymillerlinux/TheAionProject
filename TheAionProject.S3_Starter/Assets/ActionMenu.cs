@@ -42,6 +42,7 @@ namespace TheAionProject
                     { '3', TravelerAction.Travel },
                     { '4', TravelerAction.TravelerLocationsVisited },
                     { '5', TravelerAction.ListSpaceTimeLocations },
+                    { '6', TravelerAction.ListGameObjects},
                     { '0', TravelerAction.Exit }
                 }
         };

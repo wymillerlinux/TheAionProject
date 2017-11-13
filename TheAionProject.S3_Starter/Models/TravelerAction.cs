@@ -25,6 +25,7 @@ namespace TheAionProject
         TravelerTreasure,
         TravelerLocationsVisited,
         ListSpaceTimeLocations,
+        ListGameObjects,
         ListItems,
         ListTreasures,
         Exit

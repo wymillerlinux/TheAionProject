@@ -272,6 +272,38 @@ namespace TheAionProject
 
         #endregion
 
+        #region SPRINT THREE METHODS
+
+        public static string ListAllGameobjects(IEnumerable<GameObject> gameObjects)
+        {
+            string messageBoxText = 
+                "Game Objects" +
+                "\n" +
+                
+                "ID".PadRight(10) +
+                "Name".PadRight(30) +
+                "Space Time Location ID".PadRight(10) + "\n" +
+                "---".PadRight(10) +
+                "----------------------".PadRight(30) +
+                "----------------------".PadRight(10) + "\n";
+
+            string gameObjectRows = null;
+            foreach (GameObject gameObject in gameObjects)
+            {
+                gameObjectRows =
+                    $"{gameObject.Id}".PadRight(10) +
+                    $"{gameObject.Name}".PadRight(30) +
+                    $"{gameObject.SpaceTimeLocationId}".PadRight(10) +
+                    Environment.NewLine;
+            }
+
+            messageBoxText += gameObjectRows;
+
+            return messageBoxText;
+        }
+
+        #endregion
+
         public static List<string> StatusBox(Traveler traveler, Universe universe)
         {
             List<string> statusBoxText = new List<string>();
@@ -281,6 +313,27 @@ namespace TheAionProject
             statusBoxText.Add($"Lives: {traveler.Lives}\n");
 
             return statusBoxText;
+        }
+
+        public static string GameOver()
+        {
+            string messageBoxText =
+                "You are dead! Ther application will now quit. Restart the application" +
+                "if you like to play again.";
+            return messageBoxText;
+        }
+
+        public static string GameObjectsChooseList()
+        {
+            string messageBoxText =
+                "Game Objects\n" +
+                "\n" +
+                
+                // display table header
+                "" +
+                "" + "\n" +
+                "" +
+                "" + "";
         }
     }
 }

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Management.Instrumentation;
 using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
@@ -172,6 +174,10 @@ namespace TheAionProject
                     case TravelerAction.Exit:
                         _playingGame = false;
                         break;
+                        
+                    case TravelerAction.ListGameObjects:
+                        _gameConsoleView.DisplayListOfAllGameObject();
+                        break;
 
                     default:
                         break;
@@ -214,6 +220,18 @@ namespace TheAionProject
                 // update experience points for visiting locations
                 //
                 _gameTraveler.ExperiencePoints += _currentLocation.ExperiencePoints;
+            }
+
+            if (_gameTraveler.SpaceTimeLocationID == 2)
+            {
+                _gameTraveler.Lives -= 1;
+            }
+
+            if (_gameTraveler.Lives == 0)
+            {
+                _gameConsoleView.DisplayGamePlayScreen("Game Over", Text.GameOver(), ActionMenu.MainMenu, "");
+                _gameConsoleView.GetContinueKey();
+                Environment.Exit(0);
             }
         }
 

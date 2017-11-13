@@ -17,11 +17,18 @@ namespace TheAionProject
         // list of all space-time locations
         //
         private List<SpaceTimeLocation> _spaceTimeLocations;
+        private List<GameObject> _gameObjects;
 
         public List<SpaceTimeLocation> SpaceTimeLocations
         {
             get { return _spaceTimeLocations; }
             set { _spaceTimeLocations = value; }
+        }
+
+        public List<GameObject> GameObjects
+        {
+            get { return _gameObjects; }
+            set { _gameObjects = value; }
         }
 
         #endregion
@@ -49,6 +56,7 @@ namespace TheAionProject
         private void IntializeUniverse()
         {
             _spaceTimeLocations = UniverseObjects.SpaceTimeLocations;
+            _gameObjects = UniverseObjects.GameObjects;
         }
 
         #endregion
@@ -149,6 +157,68 @@ namespace TheAionProject
             }
 
             return spaceTimeLocation;
+        }
+
+        #endregion
+
+        #region SPRINT THREE METHODS
+
+        public bool IsValidGameObjectByLocationId(int gameObjectId, int currentSpaceTimeLocation)
+        {
+            List<int> gameObjectIds = new List<int>();
+
+            foreach (GameObject gameObject in _gameObjects)
+            {
+                if (gameObject.SpaceTimeLocationId == currentSpaceTimeLocation)
+                {
+                    gameObjectIds.Add(gameObject.Id);
+                }
+            }
+
+            if (gameObjectIds.Contains(gameObjectId))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public GameObject GetGameObjectById(int Id)
+        {
+            GameObject gameObjectToReturn = null;
+
+            foreach (GameObject gameObject in _gameObjects)
+            {
+                if (gameObject.Id == Id)
+                {
+                    gameObjectToReturn = gameObject;
+                }
+            }
+
+            if (gameObjectToReturn == null)
+            {
+                string feedbackMessage = "Something goes here. It works however! Woo!";
+                throw new ArgumentException(feedbackMessage, Id.ToString());
+            }
+            
+            return gameObjectToReturn;
+        }
+
+        public List<GameObject> GetGameObjectsBySpaceTimeLocationId(int spaceTimeLocationId)
+        {
+            List<GameObject> gameObjects = new List<GameObject>();
+
+            foreach (GameObject gameObject in _gameObjects)
+            {
+                if (gameObject.SpaceTimeLocationId == spaceTimeLocationId)
+                {
+                    gameObjects.Add(gameObject);
+                }
+            }
+
+            return gameObjects;
         }
 
         #endregion

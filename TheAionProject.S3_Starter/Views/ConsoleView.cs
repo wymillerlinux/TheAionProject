@@ -134,6 +134,7 @@ namespace TheAionProject
         private bool GetInteger(string prompt, int minimumValue, int maximumValue, out int integerChoice)
         {
             bool validResponse = false;
+            bool validateRange = (minimumValue != 0 || maximumValue != 0);
             integerChoice = 0;
 
             DisplayInputBoxPrompt(prompt);
@@ -141,15 +142,22 @@ namespace TheAionProject
             {
                 if (int.TryParse(Console.ReadLine(), out integerChoice))
                 {
-                    if (integerChoice >= minimumValue && integerChoice <= maximumValue)
+                    if (validateRange)
                     {
-                        validResponse = true;
+                        if (integerChoice >= minimumValue && integerChoice <= maximumValue)
+                        {
+                            validResponse = true;
+                        }
+                        else
+                        {
+                            ClearInputBox();
+                            DisplayInputErrorMessage($"You must enter an integer value between {minimumValue} and {maximumValue}. Please try again.");
+                            DisplayInputBoxPrompt(prompt);
+                        }
                     }
                     else
                     {
-                        ClearInputBox();
-                        DisplayInputErrorMessage($"You must enter an integer value between {minimumValue} and {maximumValue}. Please try again.");
-                        DisplayInputBoxPrompt(prompt);
+                        validResponse = true;
                     }
                 }
                 else
@@ -427,7 +435,7 @@ namespace TheAionProject
             Console.BackgroundColor = ConsoleTheme.InputBoxBackgroundColor;
             Console.ForegroundColor = ConsoleTheme.InputBoxBorderColor;
 
-            ConsoleWindowHelper.DisplayBoxOutline(
+            ConsoleWindowHelper.DisplayBoxOutline(    
                 ConsoleLayout.InputBoxPositionTop,
                 ConsoleLayout.InputBoxPositionLeft,
                 ConsoleLayout.InputBoxWidth,
@@ -611,6 +619,20 @@ namespace TheAionProject
         }
 
         #endregion
+
+        public void DisplayGameOver()
+        {
+            
+        }
+
+        #endregion
+
+        #region SPRINT THREE METHODS
+
+        public void DisplayListOfAllGameObject()
+        {
+            DisplayGamePlayScreen("List: Game Objects", Text.ListAllGameobjects(_gameUniverse.GameObjects), ActionMenu.MainMenu, "");
+        }
 
         #endregion
     }
