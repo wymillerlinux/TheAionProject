@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheAionProject.S3_Solution", "TheAionProject.S3_Solution\TheAionProject.S3_Solution.csproj", "{D525C7A8-8175-4678-8B19-0674040A17F0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{EA97269A-E209-4BD6-88B8-9F97CFF4F7CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheAionProject.S3_Starter", "TheAionProject.S3_Starter\TheAionProject.S3_Starter.csproj", "{7F34B8D9-7DFA-4F57-8D7A-22BFE7F99E0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheAionProject.S3Plus_Solution", "TheAionProject.S3Plus_Solution\TheAionProject.S3Plus_Solution.csproj", "{F8266A74-844A-4313-984E-6A3E624A1AD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheAionProject.S3Plus_Starter", "TheAionProject.S3Plus_Starter\TheAionProject.S3Plus_Starter.csproj", "{36DEC12E-1389-482D-8075-15C398E9652E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +15,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D525C7A8-8175-4678-8B19-0674040A17F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D525C7A8-8175-4678-8B19-0674040A17F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D525C7A8-8175-4678-8B19-0674040A17F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D525C7A8-8175-4678-8B19-0674040A17F0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7F34B8D9-7DFA-4F57-8D7A-22BFE7F99E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F34B8D9-7DFA-4F57-8D7A-22BFE7F99E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F34B8D9-7DFA-4F57-8D7A-22BFE7F99E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F34B8D9-7DFA-4F57-8D7A-22BFE7F99E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8266A74-844A-4313-984E-6A3E624A1AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8266A74-844A-4313-984E-6A3E624A1AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8266A74-844A-4313-984E-6A3E624A1AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8266A74-844A-4313-984E-6A3E624A1AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36DEC12E-1389-482D-8075-15C398E9652E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36DEC12E-1389-482D-8075-15C398E9652E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36DEC12E-1389-482D-8075-15C398E9652E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36DEC12E-1389-482D-8075-15C398E9652E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {798172A1-259A-4182-9120-0149736D1F03}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,7 @@
+C:\Users\velisj\Git\NMC\CIT195\Demo_TheAionProject\TheAionProject.S3Plus_Solution\bin\Debug\TheAionProject.S3Plus_Solution.exe.config
+C:\Users\velisj\Git\NMC\CIT195\Demo_TheAionProject\TheAionProject.S3Plus_Solution\bin\Debug\TheAionProject.S3Plus_Solution.exe
+C:\Users\velisj\Git\NMC\CIT195\Demo_TheAionProject\TheAionProject.S3Plus_Solution\bin\Debug\TheAionProject.S3Plus_Solution.pdb
+C:\Users\velisj\Git\NMC\CIT195\Demo_TheAionProject\TheAionProject.S3Plus_Solution\obj\Debug\TheAionProject.S3Plus_Solution.csprojResolveAssemblyReference.cache
+C:\Users\velisj\Git\NMC\CIT195\Demo_TheAionProject\TheAionProject.S3Plus_Solution\obj\Debug\TheAionProject.S3Plus_Solution.csproj.CoreCompileInputs.cache
+C:\Users\velisj\Git\NMC\CIT195\Demo_TheAionProject\TheAionProject.S3Plus_Solution\obj\Debug\TheAionProject.S3Plus_Solution.exe
+C:\Users\velisj\Git\NMC\CIT195\Demo_TheAionProject\TheAionProject.S3Plus_Solution\obj\Debug\TheAionProject.S3Plus_Solution.pdb
