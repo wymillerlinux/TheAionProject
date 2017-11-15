@@ -56,7 +56,7 @@ namespace TheAionProject
         private void IntializeUniverse()
         {
             _spaceTimeLocations = UniverseObjects.SpaceTimeLocations;
-            _gameObjects = UniverseObjects.GameObjects;
+            _gameObjects = UniverseObjects.gameObjects;
         }
 
         #endregion

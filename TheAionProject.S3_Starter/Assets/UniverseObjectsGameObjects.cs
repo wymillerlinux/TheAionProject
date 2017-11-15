@@ -4,7 +4,7 @@ using TheAionProject.S3_Starter.Models.Enum;
 
 namespace TheAionProject
 {
-    public static partial class UniverseObjectsGameObjects
+    public static partial class UniverseObjects
     {
         public static List<GameObject> gameObjects = new List<GameObject>()
         {

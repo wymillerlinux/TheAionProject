@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -323,17 +324,70 @@ namespace TheAionProject
             return messageBoxText;
         }
 
-        public static string GameObjectsChooseList()
+        public static string GameObjectsChooseList(IEnumerable<GameObject> gameObjects)
         {
             string messageBoxText =
                 "Game Objects\n" +
                 "\n" +
                 
                 // display table header
-                "" +
-                "" + "\n" +
-                "" +
-                "" + "";
+                "ID".PadRight(10) +
+                "Name".PadRight(30) + "\n" +
+                "---".PadRight(10) +
+                "-----------------".PadRight(30) + "";
+
+            string gameObjectRows = null;
+            foreach (GameObject gameObject in gameObjects)
+            {
+                gameObjectRows +=
+                    $"{gameObject.Id}".PadRight(10) +
+                    $"{gameObject.Name}".PadRight(30) +
+                    Environment.NewLine;
+            }
+
+            messageBoxText += gameObjectRows;
+            
+            return messageBoxText;
         }
+
+        public static string LookAt(GameObject gameObject)
+        {
+            string messageBoxText = "";
+
+            messageBoxText =
+                $"{gameObject.Name}" +
+                "\n" +
+                gameObject.Description + "\n" +
+                "\n";
+
+            if (gameObject is TravelerObject)
+            {
+                TravelerObject travelerObject = gameObject as TravelerObject;
+
+                messageBoxText += $"The {travelerObject.Name} has a value of {travelerObject.Value}";
+
+                if (travelerObject.CanInventory)
+                {
+                    messageBoxText += "may be added to your inventory.";
+                }
+                else
+                {
+                    messageBoxText += "may not be added to your inventory";
+                }
+            }
+            else
+            {
+                messageBoxText += $"The {gameObject.Name} may not be added to your inventory";
+            }
+            
+            return messageBoxText;
+        }
+
+        public static string CurrentInventory(IEnumerable<TravelerObject> inventory)
+        {
+            string messageBoxText = "";
+            return messageBoxText;
+        }
+
     }
 }

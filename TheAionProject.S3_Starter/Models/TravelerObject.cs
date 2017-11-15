@@ -11,7 +11,7 @@ namespace TheAionProject.S3_Starter.Models
         public override string Name { get; set; }
         public override string Description { get; set; }
         public override int SpaceTimeLocationId { get; set; }
-
+        public Traveler Inventory { get; set; }
         public TravelerObjectType Type { get; set; }
         public bool CanInventory { get; set; }
         public bool IsConsumable { get; set; }
