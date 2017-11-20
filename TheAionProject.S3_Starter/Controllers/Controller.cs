@@ -206,6 +206,14 @@ namespace TheAionProject
                     case TravelerAction.Inventory:
                         _gameConsoleView.DisplayInventory();
                         break;
+
+                    case TravelerAction.PickUp:
+                        PickUpAction();
+                        break;
+
+                    case TravelerAction.PutDown:
+                        PutDownAction();
+                        break;
                         
                     default:
                         break;
@@ -274,8 +282,61 @@ namespace TheAionProject
             }
         }
 
-        
-        
+        private void PickUpAction()
+        {
+            //
+            // display a list of traveler objects in space-time location and get a player choice
+            //
+            int travelerObjectToPickUpId = _gameConsoleView.DisplayGetTravelerObjectToPickUp();
+
+            //
+            // add the traveler object to traveler's inventory
+            //
+            if (travelerObjectToPickUpId != 0)
+            {
+                //
+                // get the game object from the universe
+                //
+                TravelerObject travelerObject = _gameUniverse.GetGameObjectById(travelerObjectToPickUpId) as TravelerObject;
+
+                //
+                // note: traveler object is added to list and the space-time location is set to 0
+                //
+                _gameTraveler.Inventory.Add(travelerObject);
+                travelerObject.SpaceTimeLocationId = 0;
+
+                //
+                // display confirmation message
+                //
+                _gameConsoleView.DisplayConfirmTravelerObjectAddedToInventory(travelerObject);
+            }
+        }
+
+        private void PutDownAction()
+        {
+            //
+            // display a list of traveler objects in inventory and get a player choice
+            //
+            int inventoryObjectToPutDownId = _gameConsoleView.DisplayGetInventoryObjectToPutDown();
+
+            //
+            // get the game object from the universe
+            //
+            TravelerObject travelerObject = _gameUniverse.GetGameObjectById(inventoryObjectToPutDownId) as TravelerObject;
+
+            //
+            // remove the object from inventory and set the space-time location to the current value
+            //
+            _gameTraveler.Inventory.Remove(travelerObject);
+            travelerObject.SpaceTimeLocationId = _gameTraveler.SpaceTimeLocationID;
+
+            //
+            // display confirmation message
+            //
+            _gameConsoleView.DisplayConfirmTravelerObjectRemovedFromInventory(travelerObject);
+
+        }
+
         #endregion
     }
 }

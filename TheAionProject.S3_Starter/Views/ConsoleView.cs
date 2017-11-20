@@ -684,6 +684,93 @@ namespace TheAionProject
             DisplayGamePlayScreen("Current Inventory", Text.CurrentInventory(_gameTraveler.Inventory), ActionMenu.MainMenu, "");
         }
 
+        public int DisplayGetTravelerObjectToPickUp()
+        {
+            int gameObjectId = 0;
+            bool validGameObjectId = false;
+
+            List<TravelerObject> travelerObjectsInSpaceTimeLocation = _gameUniverse.GetTravelerObjectBySpaceTimeLocationId(_gameTraveler.SpaceTimeLocationID);
+
+            if (travelerObjectsInSpaceTimeLocation.Count > 0)
+            {
+                DisplayGamePlayScreen("Pick up Game Object", Text.GameObjectChooseList(travelerObjectsInSpaceTimeLocation), ActionMenu.MainMenu, "");
+
+                while (!validGameObjectId)
+                {
+                    GetInteger($"Enter the ID number of the object you wish to add to your inventory: ", 0, 0 , out gameObjectId);
+
+                    if (_gameUniverse.IsVaildTravelerObjectByLocationId(gameObjectId, _gameTraveler.SpaceTimeLocationID))
+                    {
+                        TravelerObject travelerObject = _gameUniverse.GetGameObjectById(gameObjectId) as TravelerObject;
+                        if (travelerObject.CanInventory)
+                        {
+                            validGameObjectId = true;
+                        }
+                        else
+                        {
+                            ClearInputBox();
+                            DisplayInputErrorMessage("It appears you may not inventory that object. Please try again.");
+                        }
+                    }
+                    else
+                    {
+                        ClearInputBox();
+                        DisplayInputErrorMessage("It appears you entered an invalid game object id. Please try again.");
+                    }
+
+                }
+            }
+            else
+            {
+                DisplayGamePlayScreen("Pick Up Game Object", "It appears there are no game objects here.", ActionMenu.MainMenu, "");
+            }
+
+            return gameObjectId;
+        }
+
+        public int DisplayGetInventoryObjectToPutDown()
+        {
+            int travelerObjectId = 0;
+            bool validInventoryObjectId = false;
+
+            if (_gameTraveler.Inventory.Count > 0)
+            {
+                DisplayGamePlayScreen("Put Down Game Object", Text.GameObjectsChooseList(_gameTraveler.Inventory), ActionMenu.MainMenu, "");
+
+                while (!validInventoryObjectId)
+                {
+                    GetInteger($"Enter the Id number of the object you wish to remove from your inventory: ", 0, 0, out travelerObjectId);
+
+                    TravelerObject objectToPutDown = _gameTraveler.Inventory.FirstOrDefault(o => o.Id == travelerObjectId);
+
+                    if (objectToPutDown != null)
+                    {
+                        validInventoryObjectId = true;
+                    }
+                    else
+                    {
+                        ClearInputBox();
+                        DisplayInputErrorMessage("It appears you entered the Id of an object not in the inventory. Please try again.");
+                    }
+                }
+            }
+            else
+            {
+                DisplayGamePlayScreen("Pick Up Game Object", "It appears there are no objects currently in inventory.", ActionMenu.MainMenu, "");
+            }
+
+            return travelerObjectId;
+        }
+
+        public void DisplayConfirmTravelerObjectAddedToInventory(TravelerObject objectAddedToInventory)
+        {
+            DisplayGamePlayScreen("Pick Up Game Object", $"The {objectAddedToInventory.Name} has been added to your inventory.", ActionMenu.MainMenu, "");
+        }
+
+        public void DisplayConfirmTravelerObjectRemovedFromInventory(TravelerObject objectRemovedFromInventory)
+        {
+            DisplayGamePlayScreen("Put Down Game Object", $"The {objectRemovedFromInventory.Name} has been removed from your inventory.", ActionMenu.MainMenu, "");
+        }
         #endregion
     }
 }

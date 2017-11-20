@@ -221,6 +221,42 @@ namespace TheAionProject
             return gameObjects;
         }
 
+        public bool IsVaildTravelerObjectByLocationId(int travelerObjectId, int currentSpaceTimeLocation)
+        {
+            List<int> travelerObjectIds = new List<int>();
+
+            foreach (GameObject gameObject in _gameObjects)
+            {
+                if (gameObject.SpaceTimeLocationId == currentSpaceTimeLocation && gameObject is TravelerObject)
+                {
+                    travelerObjectIds.Add(gameObject.Id);
+                }
+            }
+            if (travelerObjectIds.Contains(travelerObjectId))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public List<TravelerObject> GetTravelerObjectBySpaceTimeLocationId(int spaceTimeLocationId)
+        {
+            List<TravelerObject> travelerObjects = new List<TravelerObject>();
+
+            foreach (GameObject gameObject in _gameObjects)
+            {
+                if (gameObject.SpaceTimeLocationId == spaceTimeLocationId && gameObject is TravelerObject)
+                {
+                    travelerObjects.Add(gameObject as TravelerObject);
+                }
+            }
+
+            return travelerObjects;
+        }
+
         #endregion
     }
 }

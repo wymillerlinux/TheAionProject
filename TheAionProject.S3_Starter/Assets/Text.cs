@@ -385,7 +385,24 @@ namespace TheAionProject
 
         public static string CurrentInventory(IEnumerable<TravelerObject> inventory)
         {
-            string messageBoxText = "";
+            string messageBoxText = "Game Objects\n\n" + "ID".PadRight(10) + "Name".PadRight(30) + "\n" + "-- - ".PadRight(10) + "-------------- - ".PadRight(30) + "\n";
+
+
+            return messageBoxText;
+        }
+
+        public static string GameObjectChooseList(IEnumerable<GameObject> gameObjects)
+        {
+            string messageBoxText = "Game Objects\n\n" + "ID".PadRight(10) + "Name".PadRight(30) + "\n" + "---".PadRight(10) + "---------------".PadRight(30) + "\n";
+
+            string gameObjectRows = null;
+
+            foreach (GameObject gameObject in gameObjects)
+            {
+                gameObjectRows +=
+                    $"{gameObject.Id}".PadRight(10) +
+                    $"{gameObject.Name}".PadLeft(30) + Environment.NewLine;
+            }
             return messageBoxText;
         }
 
