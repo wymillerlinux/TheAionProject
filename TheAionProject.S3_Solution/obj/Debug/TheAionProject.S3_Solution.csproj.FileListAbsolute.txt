@@ -17,3 +17,10 @@ C:\Users\Wyatt\Desktop\Source\TheAionProject\TheAionProject.S3_Solution\obj\Debu
 C:\Users\Wyatt\Desktop\Source\TheAionProject\TheAionProject.S3_Solution\obj\Debug\TheAionProject.S3_Solution.csproj.CoreCompileInputs.cache
 C:\Users\Wyatt\Desktop\Source\TheAionProject\TheAionProject.S3_Solution\obj\Debug\TheAionProject.S3_Starter.exe
 C:\Users\Wyatt\Desktop\Source\TheAionProject\TheAionProject.S3_Solution\obj\Debug\TheAionProject.S3_Starter.pdb
+C:\Users\mill1159\TheAionProject\TheAionProject.S3_Solution\bin\Debug\TheAionProject.S3_Starter.exe.config
+C:\Users\mill1159\TheAionProject\TheAionProject.S3_Solution\bin\Debug\TheAionProject.S3_Starter.exe
+C:\Users\mill1159\TheAionProject\TheAionProject.S3_Solution\bin\Debug\TheAionProject.S3_Starter.pdb
+C:\Users\mill1159\TheAionProject\TheAionProject.S3_Solution\obj\Debug\TheAionProject.S3_Solution.csprojResolveAssemblyReference.cache
+C:\Users\mill1159\TheAionProject\TheAionProject.S3_Solution\obj\Debug\TheAionProject.S3_Solution.csproj.CoreCompileInputs.cache
+C:\Users\mill1159\TheAionProject\TheAionProject.S3_Solution\obj\Debug\TheAionProject.S3_Starter.exe
+C:\Users\mill1159\TheAionProject\TheAionProject.S3_Solution\obj\Debug\TheAionProject.S3_Starter.pdb

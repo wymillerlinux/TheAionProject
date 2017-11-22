@@ -56,6 +56,7 @@ namespace TheAionProject
         private void IntializeUniverse()
         {
             _spaceTimeLocations = UniverseObjects.SpaceTimeLocations;
+
             _gameObjects = UniverseObjects.gameObjects;
         }
 
@@ -232,6 +233,7 @@ namespace TheAionProject
                     travelerObjectIds.Add(gameObject.Id);
                 }
             }
+
             if (travelerObjectIds.Contains(travelerObjectId))
             {
                 return true;

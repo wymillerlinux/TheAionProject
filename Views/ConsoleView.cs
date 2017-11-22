@@ -636,7 +636,7 @@ namespace TheAionProject
 
         public void DisplayListOfAllGameObject()
         {
-            DisplayGamePlayScreen("List: Game Objects", Text.ListAllGameobjects(_gameUniverse.GameObjects), ActionMenu.AdminMenu, "");
+            DisplayGamePlayScreen("List: Game Objects", Text.ListAllGameObject(_gameUniverse.GameObjects), ActionMenu.AdminMenu, "");
         }
 
         public int DisplayGetObjectsToLookAt()

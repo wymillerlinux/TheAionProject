@@ -16,5 +16,6 @@ namespace TheAionProject
         public bool IsConsumable { get; set; }
         public bool IsVisible { get; set; }
         public int Value { get; set; }
+        public int ExpPoints { get; set; }
     }
 }

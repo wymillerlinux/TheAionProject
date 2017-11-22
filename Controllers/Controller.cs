@@ -305,6 +305,8 @@ namespace TheAionProject
                 _gameTraveler.Inventory.Add(travelerObject);
                 travelerObject.SpaceTimeLocationId = 0;
 
+                // add exp points
+
                 //
                 // display confirmation message
                 //

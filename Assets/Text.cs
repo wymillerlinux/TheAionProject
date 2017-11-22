@@ -223,7 +223,7 @@ namespace TheAionProject
                 // display table header
                 //
                 "ID".PadRight(10) + "Name".PadRight(30) + "\n" +
-                "---".PadRight(10) + "----------------------".PadRight(30) +  "\n";
+                "---".PadRight(10) + "----------------------".PadRight(30) + "\n";
 
             //
             // display all locations
@@ -231,10 +231,10 @@ namespace TheAionProject
             string spaceTimeLocationList = null;
             foreach (SpaceTimeLocation spaceTimeLocation in spaceTimeLocations)
             {
-                    spaceTimeLocationList +=
-                        $"{spaceTimeLocation.SpaceTimeLocationID}".PadRight(10) +
-                        $"{spaceTimeLocation.CommonName}".PadRight(30) +
-                        Environment.NewLine;
+                spaceTimeLocationList +=
+                    $"{spaceTimeLocation.SpaceTimeLocationID}".PadRight(10) +
+                    $"{spaceTimeLocation.CommonName}".PadRight(30) +
+                    Environment.NewLine;
             }
 
             messageBoxText += spaceTimeLocationList;
@@ -275,12 +275,12 @@ namespace TheAionProject
 
         #region SPRINT THREE METHODS
 
-        public static string ListAllGameobjects(IEnumerable<GameObject> gameObjects)
+        public static string ListAllGameObject(IEnumerable<GameObject> gameObjects)
         {
-            string messageBoxText = 
+            string messageBoxText =
                 "Game Objects" +
                 "\n" +
-                
+
                 "ID".PadRight(10) +
                 "Name".PadRight(30) +
                 "Space Time Location ID".PadRight(10) + "\n" +
@@ -291,11 +291,12 @@ namespace TheAionProject
             string gameObjectRows = null;
             foreach (GameObject gameObject in gameObjects)
             {
-                gameObjectRows =
+                gameObjectRows +=
                     $"{gameObject.Id}".PadRight(10) +
                     $"{gameObject.Name}".PadRight(30) +
                     $"{gameObject.SpaceTimeLocationId}".PadRight(10) +
                     Environment.NewLine;
+
             }
 
             messageBoxText += gameObjectRows;
@@ -329,7 +330,7 @@ namespace TheAionProject
             string messageBoxText =
                 "Game Objects\n" +
                 "\n" +
-                
+
                 // display table header
                 "ID".PadRight(10) +
                 "Name".PadRight(30) + "\n" +
@@ -346,7 +347,7 @@ namespace TheAionProject
             }
 
             messageBoxText += gameObjectRows;
-            
+
             return messageBoxText;
         }
 
@@ -379,14 +380,34 @@ namespace TheAionProject
             {
                 messageBoxText += $"The {gameObject.Name} may not be added to your inventory";
             }
-            
+
             return messageBoxText;
         }
 
         public static string CurrentInventory(IEnumerable<TravelerObject> inventory)
         {
-            string messageBoxText = "Game Objects\n\n" + "ID".PadRight(10) + "Name".PadRight(30) + "\n" + "-- - ".PadRight(10) + "-------------- - ".PadRight(30) + "\n";
+            string messageBoxText = "Game Objects" +
+                "\n" +
+                "ID".PadRight(10) +
+                "Name".PadRight(30) +
+                "Type".PadRight(10) + "\n" +
+                "---".PadRight(10) +
+                "--------------------------".PadRight(30) +
+                "---------------------".PadRight(10) +
+                "\n";
 
+            string gameObjectRows = null;
+
+            foreach (TravelerObject gameObject in inventory)
+            {
+                gameObjectRows +=
+                    $"{gameObject.Id}".PadRight(10) +
+                    $"{gameObject.Name}".PadRight(30) +
+                    $"{gameObject.Type}".PadRight(10) +
+                    Environment.NewLine;
+            }
+
+            messageBoxText += gameObjectRows;
 
             return messageBoxText;
         }
@@ -401,8 +422,11 @@ namespace TheAionProject
             {
                 gameObjectRows +=
                     $"{gameObject.Id}".PadRight(10) +
-                    $"{gameObject.Name}".PadLeft(30) + Environment.NewLine;
+                    $"{gameObject.Name}".PadRight(30) + Environment.NewLine;
             }
+
+            messageBoxText += gameObjectRows;
+
             return messageBoxText;
         }
 

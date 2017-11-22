@@ -5,3 +5,10 @@ C:\Users\Wyatt\Desktop\Demo_TheAionProject.S3_Starter\TheAionProject.S3_Starter\
 C:\Users\Wyatt\Desktop\Demo_TheAionProject.S3_Starter\TheAionProject.S3_Starter\bin\Debug\ConsoleApplication.pdb
 C:\Users\Wyatt\Desktop\Demo_TheAionProject.S3_Starter\TheAionProject.S3_Starter\obj\x86\Debug\ConsoleApplication.exe
 C:\Users\Wyatt\Desktop\Demo_TheAionProject.S3_Starter\TheAionProject.S3_Starter\obj\x86\Debug\ConsoleApplication.pdb
+C:\Users\mill1159\TheAionProject\bin\Debug\ConsoleApplication.exe.config
+C:\Users\mill1159\TheAionProject\bin\Debug\ConsoleApplication.exe
+C:\Users\mill1159\TheAionProject\bin\Debug\ConsoleApplication.pdb
+C:\Users\mill1159\TheAionProject\obj\x86\Debug\TheAionProject.S3_Starter.csprojResolveAssemblyReference.cache
+C:\Users\mill1159\TheAionProject\obj\x86\Debug\TheAionProject.S3_Starter.csproj.CoreCompileInputs.cache
+C:\Users\mill1159\TheAionProject\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\mill1159\TheAionProject\obj\x86\Debug\ConsoleApplication.pdb

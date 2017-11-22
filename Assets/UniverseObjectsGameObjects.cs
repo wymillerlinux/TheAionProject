@@ -15,13 +15,14 @@ namespace TheAionProject
             {
                 Id = 1,
                 Name = "Bag of Gold",
-                SpaceTimeLocationId = 2,
+                SpaceTimeLocationId = 1,
                 Description = "A small leather pouch filled with 9 gold coins.",
                 Type = TravelerObjectType.Treasure,
                 Value = 45,
                 CanInventory = true,
                 IsConsumable = true,
-                IsVisible = true
+                IsVisible = true,
+                ExpPoints = 10
             },
 
             new TravelerObject
@@ -34,27 +35,29 @@ namespace TheAionProject
                 Value = 45,
                 CanInventory = true,
                 IsConsumable = true,
-                IsVisible = true
+                IsVisible = true,
+                ExpPoints = 20
             },
 
             new TravelerObject
             {
                 Id = 3,
                 Name = "Rotogenic Medicine",
-                SpaceTimeLocationId = 3,
+                SpaceTimeLocationId = 1,
                 Description = "A wooden box containing a small vial filled with a blue liquid.",
                 Type = TravelerObjectType.Medicine,
                 Value = 45,
                 CanInventory = false,
                 IsConsumable = true,
-                IsVisible = true
+                IsVisible = true,
+                ExpPoints = 15
             },
 
             new TravelerObject
             {
                 Id = 4,
                 Name = "Norlan Document ND-3075",
-                SpaceTimeLocationId = 3,
+                SpaceTimeLocationId = 5,
                 Description =
                     "Memo: Origin Errata" + "/n" +
                     "Universal Date: 378598" + "/n" +
@@ -64,7 +67,8 @@ namespace TheAionProject
                 Value = 0,
                 CanInventory = true,
                 IsConsumable = false,
-                IsVisible = true
+                IsVisible = true,
+                ExpPoints = 80
             },
 
             new TravelerObject
@@ -78,7 +82,8 @@ namespace TheAionProject
                 Value = 0,
                 CanInventory = true,
                 IsConsumable = false,
-                IsVisible = true
+                IsVisible = true,
+                ExpPoints = 10
             },
 
             new TravelerObject
@@ -92,8 +97,24 @@ namespace TheAionProject
                 Value = 0,
                 CanInventory = true,
                 IsConsumable = true,
-                IsVisible = true
-            }
+                IsVisible = true,
+                ExpPoints = 43
+            },
+
+            new TravelerObject
+            {
+                Id = 10,
+                Name = "Stim",
+                SpaceTimeLocationId = 5,
+                Description =
+                    "An injection that feels like something out of a movie.",
+                Type = TravelerObjectType.Medicine,
+                Value = 0,
+                CanInventory = true,
+                IsConsumable = true,
+                IsVisible = true,
+                ExpPoints = 22
+            },
         };
     }
 }
