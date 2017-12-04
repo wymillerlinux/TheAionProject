@@ -1,0 +1,7 @@
+/home/wyatt/Source/Demo_TheAionProject.S4_Starter/TheAionProject.S4_Starter/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.cs
+/home/wyatt/Source/Demo_TheAionProject.S4_Starter/TheAionProject.S4_Starter/obj/Debug/TheAionProject.exe
+/home/wyatt/Source/Demo_TheAionProject.S4_Starter/TheAionProject.S4_Starter/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/wyatt/Source/Demo_TheAionProject.S4_Starter/TheAionProject.S4_Starter/bin/Debug/TheAionProject.exe.config
+/home/wyatt/Source/Demo_TheAionProject.S4_Starter/TheAionProject.S4_Starter/bin/Debug/TheAionProject.exe.mdb
+/home/wyatt/Source/Demo_TheAionProject.S4_Starter/TheAionProject.S4_Starter/bin/Debug/TheAionProject.exe
+/home/wyatt/Source/Demo_TheAionProject.S4_Starter/TheAionProject.S4_Starter/obj/Debug/TheAionProject.exe.mdb
